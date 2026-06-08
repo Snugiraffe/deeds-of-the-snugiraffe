@@ -24,14 +24,7 @@ export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#FFDB61] text-[#001AE6]">
       <div className="relative min-h-screen px-8 py-10 md:px-16">
-        <div className="pointer-events-none absolute inset-0 opacity-25">
-          <div className="absolute left-[7%] top-[13%] text-7xl rotate-[-18deg]">♟</div>
-          <div className="absolute right-[14%] top-[10%] text-8xl rotate-[12deg]">☽</div>
-          <div className="absolute left-[17%] bottom-[14%] text-8xl rotate-[20deg]">✦</div>
-          <div className="absolute right-[8%] bottom-[18%] text-7xl rotate-[-10deg]">⚂</div>
-          <div className="absolute left-[48%] top-[40%] text-9xl rotate-[8deg]">▧</div>
-        </div>
-
+        
         <div className="relative z-10 grid min-h-[calc(100vh-5rem)] items-center gap-12 md:grid-cols-[1.15fr_0.85fr]">
           <section className="max-w-2xl">
             <div className="mb-8 flex gap-3 text-sm font-bold tracking-[0.2em]">

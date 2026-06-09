@@ -6,13 +6,13 @@ const copy = {
   en: {
     eyebrow: "Deeds of the Snugiraffe",
     title: "Translation Portfolio",
-    body: "Welcome! I built this website (in an attempt) to keep track of my projects in the wild and wonderful world of boardgame localisation. Take a peek, perhaps you’ll even find something familiar.",
+    body: "Welcome! I built this place (in an attempt) to keep track of my projects in the wild and wonderful world of boardgame localisation. Take a peek, perhaps you’ll even find something familiar.",
     nav: ["Projects", "About", "Contact"],
   },
   de: {
     eyebrow: "Taten der Snugiraffe",
     title: "Übersetzungsportfolio",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in der bunten Welt der Brettspiellokalisierung unterwegs. Schau dich um, vielleicht findest du sogar etwas Vertrautes.",
+    body: "Herzlich willkommen! Auf dieser Baustelle versuche ich, den Überblick über meine Arbeiten in der wilden, weiten Welt der Brettspielübersetzung zu behalten. Schaut rein, vielleicht erkennt ihr sogar das eine oder andere wieder.",
     nav: ["Projekte", "Über mich", "Kontakt"],
   },
 };

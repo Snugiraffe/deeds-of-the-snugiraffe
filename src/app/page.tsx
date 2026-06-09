@@ -7,13 +7,13 @@ const copy = {
     eyebrow: "Deeds of the Snugiraffe",
     title: "Translation Portfolio",
     body: "Welcome! I built this place (in an attempt) to keep track of my projects in the wild and wonderful world of boardgame localisation. Take a peek, perhaps you’ll even find something familiar.",
-    nav: ["Projects", "About", "Contact"],
+    nav: ["Deeds", "Who am I?", "Drop me a line"],
   },
   de: {
-    eyebrow: "Taten der Snugiraffe",
-    title: "Übersetzungsportfolio",
+    eyebrow: "Was Snugiraffe tat",
+    title: "Übersetzungen",
     body: "Herzlich willkommen! Auf dieser Baustelle versuche ich, den Überblick über meine Arbeiten in der wilden, weiten Welt der Brettspielübersetzung zu behalten. Schaut rein, vielleicht erkennt ihr sogar das eine oder andere wieder.",
-    nav: ["Projekte", "Über mich", "Kontakt"],
+    nav: ["Taten", "Wer bin ich?", "Schreibt mir!"],
   },
 };
 
@@ -57,12 +57,12 @@ export default function Home() {
           </section>
 
           <nav className="justify-self-start md:justify-self-center">
-            <div className="flex w-72 flex-col gap-5">
+            <div className="flex w-70 flex-col gap-5">
               {text.nav.map((item) => (
                 <a
                   key={item}
                   href="#"
-                  className="rounded-3xl border-4 border-[#001AE6] bg-[#FFDB61]/70 px-8 py-5 text-3xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
+                  className="rounded-3xl border-4 border-[#001AE6] bg-[#FFDB61]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
                 >
                   {item}
                 </a>

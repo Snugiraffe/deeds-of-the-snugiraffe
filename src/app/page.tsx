@@ -6,7 +6,7 @@ const copy = {
   en: {
     eyebrow: "Deeds of the Snugiraffe",
     title: "Translation Portfolio",
-    body: "Welcome! I built this website (in an attempt to) keep track of my projects in the wild and wonderful world of boardgame localisation. Take a peek, perhaps you’ll even find something familiar.",
+    body: "Welcome! I built this website (in an attempt) to keep track of my projects in the wild and wonderful world of boardgame localisation. Take a peek, perhaps you’ll even find something familiar.",
     nav: ["Projects", "About", "Contact"],
   },
   de: {
@@ -22,7 +22,7 @@ export default function Home() {
   const text = copy[language];
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[#FFDB61] text-[#001AE6]">
+    <main className="min-h-screen overflow-hidden text-[#001AE6]">
       <div className="relative min-h-screen px-8 py-10 md:px-16">
         
         <div className="relative z-10 grid min-h-[calc(100vh-5rem)] items-center gap-12 md:grid-cols-[1.15fr_0.85fr]">

@@ -43,15 +43,15 @@ export default function Home() {
               </button>
             </div>
 
-            <p className="mb-4 text-2xl font-black tracking-wide md:text-4xl">
+            <p className="display-font mb-4 text-2xl font-black tracking-wide md:text-4xl">
               {text.eyebrow}
             </p>
 
-            <h1 className="mb-8 max-w-xl text-5xl font-black leading-none tracking-tight md:text-7xl">
+            <h1 className="display-font mb-8 max-w-xl text-5xl font-black leading-none tracking-tight md:text-7xl">
               {text.title}
             </h1>
 
-            <p className="max-w-xl text-xl font-semibold leading-relaxed md:text-2xl">
+            <p className="body-font max-w-xl text-xl font-semibold leading-relaxed md:text-2xl">
               {text.body}
             </p>
           </section>
@@ -61,8 +61,8 @@ export default function Home() {
               {text.nav.map((item) => (
                 <a
                   key={item}
-                  href="#"
-                  className="rounded-3xl border-4 border-[#001AE6] bg-[#FFDB61]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
+                  href={item === text.nav[0] ? "/deeds" : "#"}
+                  className="nav-button rounded-3xl border-4 border-[#001AE6] bg-[#FFDB61]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
                 >
                   {item}
                 </a>

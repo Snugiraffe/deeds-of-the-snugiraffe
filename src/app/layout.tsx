@@ -23,11 +23,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/pzb3oyx.css"
+        />
+      </head>
+
+      <body>{children}</body>
     </html>
   );
 }

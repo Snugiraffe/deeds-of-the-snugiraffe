@@ -62,7 +62,7 @@ export default function Home() {
                 <a
                   key={item}
                   href={item === text.nav[0] ? "/deeds" : "#"}
-                  className="nav-button rounded-3xl border-4 border-[#001AE6] bg-[#FFDB61]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
+                  className="nav-button rounded-3xl border-4 border-[#001AE6] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
                 >
                   {item}
                 </a>

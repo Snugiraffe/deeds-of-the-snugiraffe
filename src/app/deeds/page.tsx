@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useLanguage } from "@/components/LanguageProvider";
 import Link from "next/link";
 import { projects } from "@/content/projects";
 
 export default function DeedsPage() {
-  const [language, setLanguage] = useState<"en" | "de">("en");
+  const { language, setLanguage } = useLanguage();
   const ui = {
     en: {
       back: "← Home",

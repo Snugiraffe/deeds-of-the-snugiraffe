@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useLanguage } from "@/components/LanguageProvider";
 
 const copy = {
   en: {
@@ -18,7 +18,7 @@ const copy = {
 };
 
 export default function Home() {
-  const [language, setLanguage] = useState<"en" | "de">("en");
+  const { language, setLanguage } = useLanguage();
   const text = copy[language];
 
   return (

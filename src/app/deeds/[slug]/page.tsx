@@ -59,7 +59,7 @@ export default function ProjectPage() {
           {project.role[language]}
         </p>
 
-        <p className="project-blurb-font text-xl leading-relaxed">
+        <p className="project-blurb-font whitespace-pre-linetext-xl leading-relaxed">
           {project.description[language]}
         </p>
       </article>

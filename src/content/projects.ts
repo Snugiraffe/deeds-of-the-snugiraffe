@@ -378,84 +378,30 @@ export const projects = [
       },
     },
   },
-  {
-    slug: "astro-knights",
+    {
+    slug: "tend",
     title: {
-      en: "Astro Knights",
-      de: "Astro Knights",
+      en: "Tend",
+      de: "Tend",
     },
-    publisher: "Frosted Games",
-    year: "2025",
-    role: {
-      en: "Rework of rulebook + translation, English to German",
-      de: "Neustrukturierung der Anleitung + Übersetzung Englisch → Deutsch",
-    },
-    description: {
-      en: "Back in the second half of the 2010s, I bought Aeon’s End. It’s a cosmic horror boss battler oozing with theme, but the real kicker is and always will be its original take on deckbuilding: You never shuffle your deck.\nA decade and many expansions later, Indie Boards & Cards decided to reimplement the mechanics with a lighter, less desolate theme. Astro Knights overall evokes more of a kids’ space-hero cartoon feel, but is still a tight game with options to make it just as punishingly difficult as its storied ancestor.\n\nFrosted Games had already acted as Indie Boards & Cards’ licencee for the German editions of a range of Aeon’s End titles, so prior experience meant taking on Astro Knights made sense. Frosted Games has a habit of subjecting game rulebooks to substantial overhauls during localisation, so I was given the task of not only translating the game, but of drafting a reworked rulebook based on the German editions of the Aeon’s End counterparts. Unfortunately, no native layout files were available to mess around in, so I did the translation in Word and added literal instructions for formatting and text placement. It made for a very different kind of approach to translation from what I’m used to.\n\nOverall, I really enjoyed the job, especially as there were some shorter flavour texts I had free reign with. The Chief Editor at Frosted did go and swap over two of my terminology choices after I had handed everything off, and unfortunately missed a reference that would have needed to be changed to match, so players may occasionally run into some minor confusion. I always consider my terminology decisions carefully, getting back to me on why I chose as I did wouldn’t have hurt. But who knows, perhaps they’ve chalked it up as a lesson learnt.",
-      de: "Irgendwann in den späteren 2010ern hatte ich mir Aeon’s End zugelegt. Das Spiel ist ein Boss-Battler mit Anlehnung an das Genre kosmischer Horror. Neben dem stark umgesetzten Thema ist Aeon’s End aber vor allem bekannt für den innovativen Ansatz im Spielprinzip Deckbau: Das Deck der Spieler wird nie gemischt!\nZehn Jahre und einige Erweiterungen später entschlossen sich Indie Boards & Cards diese Spielmechanik in einem etwas weniger düsteren Kostüm zu verpacken. Bei Astro Knights gleicht das Flair stärker einem Zeichentrick über Weltallhelden, auch wenn das Spiel trotzdem anspruchsvoll bleibt und mittels optionaler Schwierigkeitsanpassung genauso knüppelhart werden kann wie dereinst sein ehrwürdiger Vorfahr.\n\nFrosted Games war bereits deutscher Lizenznehmer für einige Titel der Aeon’s End-Reihe, die passende Erfahrung, um Astro Knights zu übernehmen war demnach vorhanden. Frosted Games ist dafür bekannt, Spielanleitungen bei der Lokalisierung stark zu überarbeiten und so beinhaltete mein Auftrag nicht nur die Übersetzung des Spiels, sondern auch gleich den Layout-Entwurf der Anleitung auf Basis der deutschen Aeon’s End-Anleitungen. Leider standen keine offenen Daten zur Verfügung, in denen ich hätte herumpfuschen können, daher fertigte ich die Übersetzung in Word an, inklusive Wort-für-Wort Anweisungen zur Formatierung und Textplatzierung. Insgesamt eine Arbeitserfahrung, die sich erheblich von meinen Übersetzungsaufträgen bis dato unterschied.\n\nDer Auftrag hat mir insgesamt viel Spaß gemacht, noch dazu weil hier und da kurze atmosphärische Texte dabei waren, an denen ich mich kreativ austoben durfte. Der Chefredakteur bei Frosted hat nach meiner Abgabe dann noch zwei meiner gewählten Begriffe umgetauscht, aber leider einen Bezug dazu anderweitig übersehen, was im Nachgang bei Spielern für Verwirrung sorgen kann. Ich überlege mir die Begriffe zur Verwendung immer sorgfältig, mich nochmal kurz zu meiner Entschiedung zu befragen, hätte sich vermutlich gelohnt. Wer weiß, vielleicht ist das ja irgendwo unter „Lektion gelernt“ verbucht."
-    },
-    cover: {
-      en: {
-       image: "/images/covers/AK-en.webp",
-       bggUrl: "https://boardgamegeek.com/boardgame/352179/astro-knights",
-      },
-      de: {
-       image: "/images/covers/AK-de.webp",
-       bggUrl: "https://frostedgames.de/shop/astro-knights/",
-      },
-    },
-  },
-  {
-    slug: "bug-run",
-    title: {
-      en: "Bug Run",
-      de: "Krabbler-Chaos",
-    },
-    publisher: "Bombyx",
-    year: "2025",
-    role: {
-      en: "Translation, English to German",
-      de: "Übersetzung Englisch → Deutsch",
-    },
-    description: {
-      en: "This quirky take on a semi-cooperative dungeon crawler had me smiling a lot while I was working on it. The basic premise is that everyone plays an innocent bug (a wasp or caterpillar, for example) who has been imprisoned in a tower dungeon by big mean baddies – in this case cute or cuddly mammals like hedgehogs or bunny rabbits. The heroic escapees must make their way up through the tower by traversing four floors, battling their way past enemy guards or fulfilling quests. Combat uses dice, quests often call upon our bug champions to flip a token (basically a coin toss). Player interaction comes from the fact that defeating guards will usually require more than one attack and multiple heroes can gang up on one guard. Quests often offer multiple options of how to tackle them. In either case, only one hero will reap the best rewards, so letting your “comrades-in-arms” do the heavy lifting and swooping in to snatch away the best loot at the last moment is the real meat of the game. This even extends to the occasional fight breaking out among the heroes when it comes to who gets to go up the stairs to the next floor first.\n\nDespite all game components being icons-only, so language-agnostic, the rulebook gives almost everything in the game a flavourful name. There’s a rusty sword to pick up, you can learn how to show off for bonus points at the end of the game or how to push into a fight as an optional extra. Because these names often reflect the game effects, there was a lot of space for creative translation, which I always enjoy a lot. A fun romp!",
-      de: "Bei der Arbeit an dieser leicht schrägen Variante semi-kooperativer Dungeon Crawler musst ich oft schmunzeln. Es fängt alles damit an, dass man jeweils in die Rolle eines unschuldigen Krabbeltiers schlüpft (eine Wespe, zum Beispiel, oder eine Raupe), welches von Bösewichten im Verlies eines Turmes eingekerkert wurde. Die Übeltäter sind dabei niedliche oder knuddelige Säuger wie Igel oder Hoppelhasen. Die heldenhaften Ausbrüchigen müssen sich durch den Turm nach oben den Weg in die Freiheit bahnen, indem sie gegnerische Wachen bekämpfen und Missionen erfüllen. Beim Kämpfen wird gewürfelt, Missionen verlangen vom jeweiligen Krabbler oftmals das Werfen eines Schicksalsplättchens (was einem Münzwurf gleichkommt). Interaktion zwischen den Beteiligten ergibt sich daraus, dass die Wachen normalerweise nicht in einer Kampfrunde besiegt werden und unsere Helden sie zu mehreren angreifen können. Bei den Missionen gibt es oftmals verschiedene Optionen zur Erfüllung. In beiden Fällen ist gleichermaßen wahr, dass nur ein Krabbler die beste Belohnung ergattern wird. Seine „geschätzten Mitstreiter“ die harte Arbeit erledigen zu lassen, um ihnen dann im letzten Moment die fetteste Beute vor der Nase wegzuschnappen, macht also den eigentlichen Kern des Spielgeschehens aus. Das geht sogar so weit, dass die Krabbler sich ab und zu um die besten Plätze auf der Treppe ins nächste Stockwerk prügeln.\n\nDas gesamte Spielmaterial nutzt durchweg Symbole, damit ist alles außer der Anleitung sprachneutral. Dafür findet sich in selbiger für fast alles im Spiel ein klangvoller Name, der oft starken Bezug auf den jeweiligen Spieleffekt nimmt. So durfte ich dem Spiel mit kreativen Übersetzungen das schartige Schwert und den Ramschbogen hinzufügen und den Krabblern das Talent der Prahlerei an die Hand geben. Und mit einem inbrünstigen „Platz da!“ darf sich das gewiefte Ungeziefer in einen Kampf einmischen, in dem eigentlich alle Plätze besetzt sind. Hat Spaß gemacht!"
-    },
-    cover: {
-      en: {
-       image: "/images/covers/bug-run-en.webp",
-       bggUrl: "https://boardgamegeek.com/boardgame/440820/bug-run",
-      },
-      de: {
-       image: "/images/covers/bug-run-de.webp",
-       bggUrl: "https://boardgamegeek.com/boardgameversion/799665/german-edition",
-      },
-    },
-  },
-  {
-    slug: "cattrick",
-    title: {
-      en: "Cat Trick",
-      de: "Cat Trick",
-    },
-    publisher: "Helvetiq",
+    publisher: "IV Studio",
     year: "2025",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
     },
     description: {
-      en: "A trick-taking card game with a cat theme that doesn‘t really have any bearing on the gameplay. It’s straightforward, pretty much. Its USP is that you never have to follow suit and need to avoid winning too many cards of any given suit or you’ll go bust.\n\nNot much to see (or say) here.",
-      de: "Ein Stichspiel mit Katzen, die aber thematisch nichts zum Spielgeschehen beitragen. Als Stichspiel will es hervorstechen, indem man nie Farbe bekennen muss und vermeiden muss, zu viele Karten derselben Farbe zu gewinnen.\n\nSehen, abnicken, weitergehen."
+      en: "This one’s what the publisher dubbed a “flip-and-write” game, which is an evolution of roll-and-writes. So instead of rolling dice and noting results in a table or filling in patterns based on your rolls, here you flip cards that inform your in-game actions. The game is themed around building and TENDing a farm on an alien planet in order to fulfil quotas for a company called Zenith. The artwork is suitably original (which is pretty much IV Studio’s thing). There’s a large variety of actions available, from planting crops to building animal enclosures to chopping wood, mining, and fishing. For most of these, you use dry-erase markers on your tableau board, woodcutting and mining use scratch-off cards. Mechanically, it’s a low-interaction engine builder in which players work towards final scoring.\n\nAlthough Tend isn’t what I’d call a heavy game, it still has a lot going on, with lots of little parts to its overall engine. There are lots of cards, each of which comes with its own little thematic touch, so I had fun polishing the translator’s chosen wording to help the theme shine through more strongly. It’s this kind of transcreation work I really enjoy best.\nWe also spotted a few inconsistencies between the rules and cards and cleaned up gameplay examples.",
+      de: "Der Herausgeber hat für dieses Spiel ein eigenes Subgenre erfunden: „flip-and-write“, also Aufdecken-und-Schreiben. Das Prinzip ist eine Weiterentwicklung des bereits altbewährten „roll-and-write“, bei dem Spielpläne oder Tableaus aufgrund von Würfelergebnissen beschrieben oder ausgemalt werden. In diesem Fall übernimmt eben ein Kartenstapel die Rolle der Würfel. Thematisch übernehmen wir bei Tend den Aufbau und die Pflege eines Gutshofs auf einem fremden Planeten, um entsprechend vereinbarter Quoten die Firma Zenith zu beliefern. Die Bildgestaltung des Spiels ist passend originell (was auch allgemein ein Markenzeichen von IV Studio ist). im Spiel sind eine ganze Reihe verschiedener Aktionen möglich, von Pflanzenanbau über Koppelbau, Rodung und Grubenarbeit bis hin zum Angeln. Die meisten Aktionen erfüllt man, indem man mit Whiteboardmarkern Bereiche auf dem Spielertableau markiert. Holzfällen und Minenarbeit hingegen verwenden Rubbelkarten. Von der Spielmechanik her ist Tend ein Engine Builder mit eher wenig Spielerinteraktion. Alle versuchen, ihren Motor zum laufen zu bringen, um bei der Schlusswertung die meisten Punkte abzusahnen.\n\nIch würde Tend jetzt kein besonders komplexes Spiel nennen, aber innerhalb des Regelwerks greifen dennoch sehr viele Teile ineinander. Es gibt eine Vielzahl an Karten und jede davon trägt ihren Teil zur Spielatmosphäre bei. Als Lektor hat ich daher viel Freude daran, der Übersetzung den Feinschliff zu verleihen, der das Spielthema noch besser zum Vorschein bringt. Diese Art von Transkreationsarbeit ist für mich der beste Teil meines Berufs.\nBei der Arbeit am Projekt konnten wir auch ein paar Inkonsistenzen zwischen Anleitung und Karten ausmerzen und Spielbeispiele glattziehen."
     },
     cover: {
       en: {
-       image: "/images/covers/cattrick.webp",
-       bggUrl: "https://boardgamegeek.com/boardgame/460428/cat-trick",
+       image: "/images/covers/tend-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/427388/tend",
       },
       de: {
-       image: "/images/covers/cattrick.webp",
-       bggUrl: "https://boardgamegeek.com/boardgameversion/783956/germanenglish-edition",
+       image: "/images/covers/tend-de-placeholder.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/785750/german-deluxe-edition",
       },
     },
   },
@@ -487,29 +433,29 @@ export const projects = [
     },
   },
   {
-    slug: "botse",
+    slug: "astro-knights",
     title: {
-      en: "Elder Scrolls – Betrayal of the Second Era",
-      de: "Elder Scrolls – Betrayal of the Second Era",
+      en: "Astro Knights",
+      de: "Astro Knights",
     },
     publisher: "Frosted Games",
     year: "2025",
     role: {
-      en: "Translation, English to German",
-      de: "Übersetzung Englisch → Deutsch",
+      en: "Rework of rulebook + translation, English to German",
+      de: "Neustrukturierung der Anleitung + Übersetzung Englisch → Deutsch",
     },
     description: {
-      en: "The absolutely epic conversion of Bethesda’s persistent-world MMORPG to a physical campaign-based adventure game/dungeon crawler. Chip Theory Games did an amazing job in applying the mechanics of their (then) flagship title Too Many Bones to the new IP and then layered it with their customary deluxified component quality. Despite its massive content, the game very cleverly breaks down into manageable sessions, each of which is one part of a 3-step campaign. The separate steps focus on a single mission (yeah, okay, quest) for one of the guilds in the game setting’s world Tamriel. These steps then divide into between 2 and 4 chapters, with an epic boss confrontation at the end of step 3. Along the way, there’s great ARPG-style character progression with skill trees and loot and merchants for upgrading your equipment. Because you only get to see a tiny part of all the available content per campaign, you’re never locked into a multiple-month struggle to finish a storyline and replayability is huge.\n\nTo call this project ambitious would be an understatement. For me, it was 2025’s Big Cahoona Burger. A (very) rough estimate put the scope at around 100,000 words of sprawling scenario texts, all machine-pretranslated (oh boy). I reviewed and edited the flavour texts in the game’s gazeteers – which are the individual scenario booklets for the 6 regions of the game world – translated all the scenario rules text plus most of the game’s cards, and reorganized text flow and rules descriptions to more closely mirror the sequences players would actually be following. Also, me and the editor at Frosted Games introduced a more comprehensive use of iconography and text formatting in the rules texts to improve legibility and enhance the signalling quality, which in turn benefits familiarisation and memorisation. There was a huge amount of back-and-forth, rewording, reformatting and a million tiny edits that kept the project going on for forever. Despite starting out using a CAT tool (memoQ), I ended up doing all the work in InDesign and really started getting to know the software properly. The craziest part of the job was probably creating an Elder Scrolls account and playing the video game, just to research terminology!",
-      de: "Der wahrhaft epische Transfer des MMORPGs in Bethesdas dauerhafter Welt Tamriel in ein physisches Format als kampagnenbasiertes Abenteuerspiel/Dungeon Crawler. Chip Theory Games haben meisterhaft ihre Spielmechanik aus ihrem (bis dato) Flaggschiffspiel Too Many Bones auf die neue Spielwelt zugeschnitten und dann ihre typische Deluxifizierung des Spielmaterials drübergekippt. Obwohl das Spiel mehr als einfach nur viel enthält, lässt es sich dank der ausgeklügelten Kampagnenstruktur in mundgerechte Partien unterteilen. Eine Kampagne besteht immer aus 3 Partien, bei denen jede sich um einen Auftrag (nein, eine Quest!) für eine der Gilden der Spielwelt dreht. Eine solche Quest unterteilt sich in 2 bis 4 Kapitel und mündet am Ende der dritten Quest in eine epische Konfrontation mit dem Questboss. Auf dem Weg dorthin gibt es ordentlich Charakterentwicklung in traditioneller Action-Rollenspiel-Manier, mit Talentbäumen und Beute und Händlern, die verbesserte Ausrüstung verkaufen. Weil man in jeder Partie nur einen Bruchteil dessen zu sehen bekommt, was das Spiel insgesamt zu bieten hat, muss man sich nie über mehrere Monate hinweg abmühen, eine Kampagne abzuschließen, und der Wiederspielwert bleibt lange erhalten.\n\nDieses Projekt hatte es richtig in sich. Für mich war es der Big Cahoona Burger des Jahres 2025. Pi mal Daumen hatte ich 100.000 Wörter Szenariotexte auf dem Teller, allesamt maschinell vorübersetzt (Au Backe!). Zusätzlich zur Übersetzung aller Regeltexte in den sogenannten Gazetten – die separaten Szenarioanleitungen für die insgesamt 6 Spielregionen – habe ich die Hintergrundgeschichten in den Gazetten lektoriert und überarbeitet und den Großteil aller Karten des Spiels übersetzt. Außerdem strukturierte ich die Texte und Regelerklärungen neu, um die von Spielern eigentlich durchzuführenden Handlungsabläufe besser abzubilden. Zusammen mit dem Redakteur bei Frosted Games führten wir tiefergehende Einbettung von Symbolen und Formatierungen in die Ablauf- und Effektbeschreibungen ein, um die Lesbarkeit und Signalwirkung zu verbessern, was wiederum Wiedererkennungswert und Einprägsamkeit erhöht. Dateien und Texte gingen zigmal hin und her, hier wurde umgeschrieben, da wurde neu formatiert, an einer Million Kleinigkeiten wurde gefeilt und das Projekt schien nie enden zu wollen. Obwohl ich zu Beginn noch mit einem CAT-Tool arbeitete (memoQ), war ich recht bald nur noch in InDesign unterwegs und habe dabei die Software zum ersten Mal wirklich kennengelernt. Das Schrägste am Projekt war aber wahrscheinlich, dass ich mir einen Account in Elder Scrolls zugelegt habe, nur um Terminologie zu überprüfen!"
+      en: "Back in the second half of the 2010s, I bought Aeon’s End. It’s a cosmic horror boss battler oozing with theme, but the real kicker is and always will be its original take on deckbuilding: You never shuffle your deck.\nA decade and many expansions later, Indie Boards & Cards decided to reimplement the mechanics with a lighter, less desolate theme. Astro Knights overall evokes more of a kids’ space-hero cartoon feel, but is still a tight game with options to make it just as punishingly difficult as its storied ancestor.\n\nFrosted Games had already acted as Indie Boards & Cards’ licencee for the German editions of a range of Aeon’s End titles, so prior experience meant taking on Astro Knights made sense. Frosted Games has a habit of subjecting game rulebooks to substantial overhauls during localisation, so I was given the task of not only translating the game, but of drafting a reworked rulebook based on the German editions of the Aeon’s End counterparts. Unfortunately, no native layout files were available to mess around in, so I did the translation in Word and added literal instructions for formatting and text placement. It made for a very different kind of approach to translation from what I’m used to.\n\nOverall, I really enjoyed the job, especially as there were some shorter flavour texts I had free reign with. The Chief Editor at Frosted did go and swap over two of my terminology choices after I had handed everything off, and unfortunately missed a reference that would have needed to be changed to match, so players may occasionally run into some minor confusion. I always consider my terminology decisions carefully, getting back to me on why I chose as I did wouldn’t have hurt. But who knows, perhaps they’ve chalked it up as a lesson learnt.",
+      de: "Irgendwann in den späteren 2010ern hatte ich mir Aeon’s End zugelegt. Das Spiel ist ein Boss-Battler mit Anlehnung an das Genre kosmischer Horror. Neben dem stark umgesetzten Thema ist Aeon’s End aber vor allem bekannt für den innovativen Ansatz im Spielprinzip Deckbau: Das Deck der Spieler wird nie gemischt!\nZehn Jahre und einige Erweiterungen später entschlossen sich Indie Boards & Cards diese Spielmechanik in einem etwas weniger düsteren Kostüm zu verpacken. Bei Astro Knights gleicht das Flair stärker einem Zeichentrick über Weltallhelden, auch wenn das Spiel trotzdem anspruchsvoll bleibt und mittels optionaler Schwierigkeitsanpassung genauso knüppelhart werden kann wie dereinst sein ehrwürdiger Vorfahr.\n\nFrosted Games war bereits deutscher Lizenznehmer für einige Titel der Aeon’s End-Reihe, die passende Erfahrung, um Astro Knights zu übernehmen war demnach vorhanden. Frosted Games ist dafür bekannt, Spielanleitungen bei der Lokalisierung stark zu überarbeiten und so beinhaltete mein Auftrag nicht nur die Übersetzung des Spiels, sondern auch gleich den Layout-Entwurf der Anleitung auf Basis der deutschen Aeon’s End-Anleitungen. Leider standen keine offenen Daten zur Verfügung, in denen ich hätte herumpfuschen können, daher fertigte ich die Übersetzung in Word an, inklusive Wort-für-Wort Anweisungen zur Formatierung und Textplatzierung. Insgesamt eine Arbeitserfahrung, die sich erheblich von meinen Übersetzungsaufträgen bis dato unterschied.\n\nDer Auftrag hat mir insgesamt viel Spaß gemacht, noch dazu weil hier und da kurze atmosphärische Texte dabei waren, an denen ich mich kreativ austoben durfte. Der Chefredakteur bei Frosted hat nach meiner Abgabe dann noch zwei meiner gewählten Begriffe umgetauscht, aber leider einen Bezug dazu anderweitig übersehen, was im Nachgang bei Spielern für Verwirrung sorgen kann. Ich überlege mir die Begriffe zur Verwendung immer sorgfältig, mich nochmal kurz zu meiner Entschiedung zu befragen, hätte sich vermutlich gelohnt. Wer weiß, vielleicht ist das ja irgendwo unter „Lektion gelernt“ verbucht."
     },
     cover: {
       en: {
-       image: "/images/covers/botse-en.webp",
-       bggUrl: "https://boardgamegeek.com/boardgame/356080/the-elder-scrolls-betrayal-of-the-second-era",
+       image: "/images/covers/AK-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/352179/astro-knights",
       },
       de: {
-       image: "/images/covers/botse-de.webp",
-       bggUrl: "https://frostedgames.de/shop/the-elder-scrolls-betrayal-of-the-second-era/",
+       image: "/images/covers/AK-de.webp",
+       bggUrl: "https://frostedgames.de/shop/astro-knights/",
       },
     },
   },
@@ -539,5 +485,195 @@ export const projects = [
        bggUrl: "https://boardgamegeek.com/boardgameversion/723970/german-edition",
       },
     },
-  },  
+  },
+    {
+    slug: "kemetrise",
+    title: {
+      en: "Kemet: Rise of the Gods",
+      de: "Kemet: Herrschaft der Götter",
+    },
+    publisher: "Matagot/Kolossal Games",
+    year: "2025",
+    role: {
+      en: "Retranslation base game + translation of expansion, English to German",
+      de: "Neuübersetzung Grundspiel + Übersetzung Erweiterung Englisch → Deutsch",
+    },
+    description: {
+      en: "Kemet is regarded as a modern classic among strategy boardgames. It’s set in an alternate ancient Egypt in which the gods are dispatching their mortal followers to wage war on their rivals’ faithful and conquer all the lands of the Nile valley. The game incorporates base-building elements with great little pyramid models that need to be built up level-by-level in order to gain greater powers and stronger troop upgrades. Troops are represented by miniatures at around 25mm scale, but there are far larger and more impressive creature minis included that you can recruit over the course of the game. The game board is a lavishly illustrated map of the Nile delta, divided into various zones with features that impact gameplay. The game uses action resolution and a simple economy system with prayers as a resource. Total troop quantity is strictly limited, forcing players to weigh the benefits of extended area control against the greater punch of concentrated forces. Combat is resolved using cards, which are played and then revealed simultaneously, including a bluffing mechanism.\n\nNone of the actual playing pieces, boards, tokens or cards have any text on them, relying instead on fairly extensive iconography. Because there are so many icons, especially on the upgrade tokens called “powers” that are a key component of gameplay, the player aids explaining what all the icons mean end up being actual booklets (where each card and token even gets its own name). As such, and because the rules for both base game and expansion are fairly involved, this project still weighed in at close to 18,000 words. The base game, Kemet Blood and Sand, had previously been localised for Germany by Frosted Games. This meant that the job came with the endearingly innocent assumption that I could simply copy most of the previous German version. At face value, there’s nothing really wrong with that, I guess, but it turns out that the original German version met with disapproval and controversy among the player community. I didn’t dive too deeply into the history, but there were multiple issues with the rulebook structure and linguistic quality that meant I put a lot more work into it than a simple copy-and-paste. I still had to stick to the originally chosen terminology for all the mechanical aspects and names of the cards and power tokens. I got why but I was still a bit upset, because the names were either strictly descriptive (thus lacking character) or somehow so far off the mark that I sometimes wondered whether the original translators had actually ever taken a look at the components or even understood the ancient Egypt theme. \nI didn’t actually get to work in any of the native layout files, which was a shame. But the structural overhaul and reworking of the gameplay examples is still of my design. And I translated all of the expansion content and the solo rules from scratch, with a lot of my suggestions for improvement and clarification ending up incorporated into the German rules, at least.",
+      de: "Kemet gilt als moderner Klassiker unter den Strategiespielen. Partien finden in einem alternativen alten Ägypten statt, in welchem die Götter ihre sterblichen Gläubigen in den Krieg gegen die Anhänger ihrer Rivalen entsenden, um die alleinige Herrschaft über das Niltal an sich zu reißen. Das Spiel enthält Aufbaustrategieelemente, bei denen man ziemlich coole kleine Pyramidenfiguren Stockwerk-um-Stockwerk aufbaut, um immer mehr Macht und bessere Truppenaufwertungen zu erhalten. Die Truppen selbst stellt man mit etwa 25-mm großen Figuren dar, aber es gibt im Spiel auch viel größere, imposantere Kreaturenfiguren, die man im Verlauf rekrutiert. Der Spielplan ist eine üppig gestaltete Landkarte der Nilmündung, unterteilt in verschiedene Zonen mit bildlich dargestellten Elementen, die Spieleffekte auslösen. Während ihrer Züge führen Spieler eine Reihe verschiedener Aktionen aus. Es gibt ein einfaches Ressourcenmanagement, bei dem Gebete als Zahlungsmittel dienen. Die Anzahl Truppen ist jeden strikt limitiert, wodurch man oft die Vorteile mehrfacher Gebietskontrolle gegen die höhere Durchschlagskraft konzentrierter Truppenstärken abwägen muss. Kämpfe werden durch das gleichzeitige Aufdecken gespielter Karten ausgefochten und Bluffen ist dabei im Sinne des Erfinders.\n\nKeine der eigentlichen Spielmaterialien enthält Text, stattdessen gibt es ein recht umfangreiches Symbolsystem. Gerade weil es aber so viele Symbole gibt, vor allem auf den für den Spielablauf so wichtigen Machtplättchen, sind die Spielhilfen, die die ganzen Symbole erklären, in Form von ganzen Heften gestaltet (dort erhält auch jede Karte und jedes Plättchen einen eigenen Namen). Damit, und weil auch die Anleitungen für das Grundspiel und die Erweiterung recht ausgiebig sind, kam dieses Projekt auf knapp 18.000 Wörter. Das Grundspiel selbst, Kemet Blut und Sand, hatte derzeit Frosted Games deutsch lokalisiert. Das bedeutete, dass der Auftrag mit der entzückend naiven Annahme daherkam, ich könne den Großteil der existierenden deutschen Ausgabe ja einfach abschreiben. Auf den ersten Blick liegt das eigentlich auch nahe, würde man meinen. Jetzt stellte sich aber heraus, dass die damalige deutsche Ausgabe nicht gerade voller Begeisterung bejubelt worden war. Ich habe mich nicht allzu tief in die ganze Geschichte eingewühlt, aber insgesamt hatte die deutsche Anleitung durchaus strukturelle und linguistische Schwachstellen, die mir deutlich mehr Arbeit bescherten als ein simples Kopieren und Einfügen. Ich musste mich leider trotzdem an die bereits etablierte Terminologie für die Spielmechaniken und an die Übersetzungen der Karten- und Plättchennamen halten. Das war zwar verständlich, aber schade. Viele der Begriffe waren entweder schlicht beschreibend (also recht „farblos“) oder aber verfehlten so stark den Charakter des Spiels, dass ich mich manchmal fragte, ob sich die Übersetzer damals das Spielmaterial angesehen hatten oder überhaupt vom altägyptischen Hintergrund wussten. \nIch konnte bei diesem Projekt nicht in den offenen Daten arbeiten, was schade war. Trotzdem stammen die Neuanordnungen und überholten Spielbeispiele alle aus meiner Feder. Die Erweiterung und Soloregeln habe ich von Grund auf neu übersetzt, wobei viele meiner Verbesserungsvorschläge zumindest in die deutschen Texte Einzug fanden."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/kemet-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameexpansion/419158/kemet-rise-of-the-gods",
+      },
+      de: {
+       image: "/images/covers/kemet-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameexpansion/419158/kemet-rise-of-the-gods",
+      },
+    },
+  },
+    {
+    slug: "rotw",
+    title: {
+      en: "Rise of the Wastelands",
+      de: "Rise of the Wastelands",
+    },
+    publisher: "Elznir Games",
+    year: "2025",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "Many designers have tried their hand at putting the 4X genre – eXplore, eXpand, eXploit, eXterminate – on boardgamers’ tables over the years. Some have managed to do a nice job, but games like Twilight Imperium or Voidfall can’t help putting off more casual gamers with their complexity or the sheer amount of time required to play. Rise of the Wastelands, or RotW for short, attempts to boil down the essence of the 4X genre somewhat by providing a kind of condensed version of all four Xs. The map isn’t huge, there are an easily overseeable number of different units and buildings, and the rules governing the available actions are simple and straightforward. Once players have the rules more or less down, a session can be finished in under two hours. None of this means that the game is dumbed down or boring. Gathering the required resources to advance your technologies can be quite challenging, weighing what you have against what you want often requires foregoing one or the other, there’s an action point economy to manage that rewards planning ahead, and player factions come with asymmetrical abilities. The victory condition is very original, requiring players to complete missions (called achievements here) that will let them place influence tokens on their opponents’ player boards, with tokens distributed deciding the winner. In what I thought was a nice twist, it’s more or less impossible to win the game simply through military dominance. If you don’t go after all 4 Xs, you’ll end up falling behind.\n\nI translated this entirely in its native layout, which was both fun and once again taught me a thing or two about using InDesign (don’t mess with cutout positions in files for double-layered boards!). Getting German text to fit where there was English text before is also almost a puzzle game in and of itself. The game’s post-apocalyptic setting, short fluff texts on the leader boards, and many card and ability names gave me a nice opportunity to think up flavourful translations.",
+      de: "Über die Jahre hat so mancher Spieleautor sich daran versucht, das 4X-Genre als Brettspiel auf Spielrundentische zu bringen. 4X leitet sich von den Englischen Begriffen eXplore (Erkundung), eXpand (Einfluss), eXploit (Erschließung) und eXterminate (Eliminierung) ab. Ich finde, 4E wäre eine schöne deutsche Entsprechung, aber an der Verbreitung dieser Idee muss ich noch ein wenig arbeiten. Jedenfalls ist die Umsetzung dem einen oder anderen gut gelungen. Allerdings wirken entsprechende Spiele, zum Beispiel Twilight Imperium oder Voidfall, auf Nicht-Hardcore-Gamer mit ihrer Komplexität und ihrem schieren Zeitaufwand doch oft abschreckend. Rise of the Wastelands, auch mal RotW abgekürzt, nimmt sich vor, das 4E-Genre durch das Komprimieren jedes der E‘s auf ein überschaubareres Maß einzuköcheln. Die Weltkarte ist nicht allzu groß, die Anzahl unterschiedlicher Einheiten und Gebäude wird niemanden überfordern und die Regeln für die verfügbaren Spielaktionen sind einfach und unkompliziert. Hat eine Spielgruppe die Anleitung erst einmal halbwegs verinnerlicht, kann sie eine Partie in weniger als zwei Stunden über die Bühne bringen. Das alles will aber mitnichten heißen, dass das Spiel intellektuell anspruchslos oder gar langweilig ist. Die für die Weiterentwicklung deiner Technologien nötigen Ressourcen aufzutreiben, ist nicht immer einfach. Abwägungen der Vorteile dessen, was man hat, und dessen, was man kriegen könnte, zwingen einen nicht selten zum Verzicht auf eine der Optionen. Das Spiel verwendet ein Aktionspunktesystem, das vorausschauendes Handeln belohnt und kommt noch dazu mit asymmetrischen Fraktionsfähigkeiten daher. Die Siegbedingung ist insofern originell, als dass man Missionsziele (hier Errungenschaften genannt) erfüllen muss, um seinen Gegnern seine Einflussmarker unterzujubeln. Wer am Ende die meisten verteilt hat, gewinnt. Es hat mir gut gefallen, dass ein Sieg allein durch militärische Übermacht so gut wie unmöglich ist. Wer sich nicht um alle 4 E‘s kümmert, bleibt am Ende Schlusslicht.\n\nDieses Projekt habe ich komplett in den offenen Daten übersetzt, was wieder einmal sowohl Spaß gemacht als auch für Lernerfahrungen mit InDesign gesorgt hat (nicht an den Markierungen für Ausschnittfelder bei mehrschichtigen Tafeln rumfuhrwerken!). Deutsche Texte dort hinzubekommen, wo vorher englische waren, ist für sich allein schon so eine Art Rätselspiel. Die postapokalyptische Hintergrundgeschichte des Spiels, die kurzen Einführungstexte auf den Tafeln der Fraktionsoberhäupter und die vielen Namen der Karten und Fähigkeiten boten eine schöne Gelegenheit zum Ausdenken atmosphärisch passender Übersetzungen."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/rotw-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/413303/rise-of-the-wastelands",
+      },
+      de: {
+       image: "/images/covers/rotw-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/763291/german-edition",
+      },
+    },
+  },
+    {
+    slug: "graft",
+    title: {
+      en: "Graft",
+      de: "Graft",
+    },
+    publisher: "IV Studio",
+    year: "2025",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "Graft takes place in the same universe as Tend. In fact, it looks suspiciously like the very same planet. This time, however, you play as the freight haulers getting goods ready for shipping back to Zenith HQ (wherever that is). Zenith, of course, is a finicky customer who wants their freight arranged just so in the various containers. Players each get a hand of cards with goods and play a single card to a steadily growing row in front of them. Each card comes with certain scoring conditions and, more importantly, may restrict what kind of cards you’re allowed to play to the row from now on. Your hand always includes a card that lets you ship your row, scoring points and clearing your play space for the next row. The interesting twist is that, once everyone’s played their single card, all players pass their entire hand along clockwise. This makes planning ahead difficult and keeps everyone on their toes.\n\nThis wasn’t a big job in terms of translation, but I did get to choose the names for all the goods and actions in the game, which was fun. It also helped that I’d worked on IV Studio’s flip-and-write title Tend before this.",
+      de: "Graft ist thematisch im selben Spieluniversum angesiedelt wie Tend. Bei genauer Betrachtung könnte man glatt vermuten, es sei sogar derselbe Planet. Dieses Mal schlüpfen wir aber in die Rolle der Frachtunternehmen, die die Güter für den Rücktransport zum Zenith Hauptsitz vorbereiten (wo immer der auch sein mag). Zenith ist selbstverständlich ein pingeliger Kunde, dessen Fracht in den jeweiligen Containern immer so und nicht anders angeordnet werden muss. Allen Spielern werden Karten mit Gütern ausgeteilt, derer man eine einzige vor sich ausspielt, um über den Spielverlauf eine stetig länger werdende Reihe zu bilden. Jede Karte hat eigene Wertungsbedingungen und, was noch wichtiger ist, kann einschränken, was danach in die Reihe gespielt werden darf. Man hält auch immer eine Absenden-Karte auf der Hand, mit der man seine Reihe werten und ablegen kann, um dann eine neue zu beginnen. Der eigentliche Kniff ist aber, dass alle nach dem Spielen ihrer Karte ihre restlichen Karten nach links weitergeben. Damit wird das Vorausplanen schwieriger und es bleibt für alle spannend.\n\nWas das Übersetzungsvolumen angeht war das hier ein eher kleinerer Job. Dafür durfte ich mich bei den Namen aller Güter und Aktionen kreativ ein wenig austoben. Gut war auch, dass ich vorher bei IV Studios flip-and-write Spiel Tend mitgearbeitet hatte."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/graft-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/445423/graft",
+      },
+      de: {
+       image: "/images/covers/graft-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/790081/german-edition",
+      },
+    },
+  },
+    {
+    slug: "map-masters",
+    title: {
+      en: "Map Masters",
+      de: "Map Masters",
+    },
+    publisher: "Captain Games",
+    year: "2025",
+    role: {
+      en: "Editing, German edition",
+      de: "Lektorat, deutsche Ausgabe",
+    },
+    description: {
+      en: "2025 seems to have been a good year for games that use dry-erase marker pens. In this one, players first assemble a personal dungeon from a set of random cards plus any cards purchased deckbuilder-style in a previous round, then draw pathways onto the cards. The aim is to have the pathway cross various icons as required by a random objective for the round. But getting to these usually requires detours to collect items like keys, swords or rope to get past locks, monsters or pits. The game features quirky artwork and most objectives are pretty tongue-in-cheek, like having to recover spider milk to feed to the dungeon’s most terrible and destructive force, Kitty the cat. Map Masters was really popular at SPIEL ‘25.\n\nThis was a fairly straightforward job. The translation was pretty good in terms of style and content, although spelling and grammar seemed to have taken a back seat. What made this job, uh, interesting was that the designers and client were somewhat disorganised and kept sending updated, edited texts",
+      de: "2025 war anscheinend das Jahr der Whiteboardmarker bei Brettspielen. Bei diesem hier legen die Spieler erst mit gezogenen und in der vorigen Runde gekauften Karten ein Gewölbe aus und zeichnen dann darauf einen Weg ein. Ziel ist es, diesen Weg an verschiedenen vom Missionsziel der Runde vorgegebenen Symbolen vorbeizuführen. Allerdings braucht es oftmals mehrere Umwege, um zu diesen zu gelangen, da Schlösser, Monster oder Fallgruben die Wege versperren und man daran nur vorbeikommt, wenn man vorher Schlüssel, Schwerter oder Seile aufsammelt. Das Spiel wartet mit Illustrationen in freundlicher Comicmanier auf und die meisten Missionsziele sind eher albernen Charakters. So muss man beispielsweise Spinnenmilch besorgen, um dem furchtbarsten aller Schrecken entgegenzutreten: Kitty, der Katze. Auf der SPIEL ’25 konnte Map Masters viele Besucher begeistern.\n\nAus Auftragssicht war das hier recht schnörkellos. Die Übersetzung war inhaltlich und stilistisch von vornherein sehr anständig, nur hatten Orthografie und Grammatik nicht zu den Prioritäten gehört. Kleinere Komplikationen ergaben sich hier durch den bemerkbaren Mangel an sinnvoller Organisation bei Autoren und Kunde, die uns während der Bearbeitung laufend Neufassungen der Texte zuschickten"
+    },
+    cover: {
+      en: {
+       image: "/images/covers/mapmasters-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/443297/map-masters",
+      },
+      de: {
+       image: "/images/covers/mapmasters-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/443297/map-masters/versions",
+      },
+    },
+  },
+  {
+    slug: "cattrick",
+    title: {
+      en: "Cat Trick",
+      de: "Cat Trick",
+    },
+    publisher: "Helvetiq",
+    year: "2025",
+    role: {
+      en: "Editing, German edition",
+      de: "Lektorat, deutsche Ausgabe",
+    },
+    description: {
+      en: "A trick-taking card game with a cat theme that doesn‘t really have any bearing on the gameplay. It’s straightforward, pretty much. Its USP is that you never have to follow suit and need to avoid winning too many cards of any given suit or you’ll go bust.\n\nNot much to see (or say) here.",
+      de: "Ein Stichspiel mit Katzen, die aber thematisch nichts zum Spielgeschehen beitragen. Als Stichspiel will es hervorstechen, indem man nie Farbe bekennen muss und vermeiden muss, zu viele Karten derselben Farbe zu gewinnen.\n\nSehen, abnicken, weitergehen."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/cattrick.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/460428/cat-trick",
+      },
+      de: {
+       image: "/images/covers/cattrick.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/783956/germanenglish-edition",
+      },
+    },
+  },
+  {
+    slug: "bug-run",
+    title: {
+      en: "Bug Run",
+      de: "Krabbler-Chaos",
+    },
+    publisher: "Bombyx",
+    year: "2025",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "This quirky take on a semi-cooperative dungeon crawler had me smiling a lot while I was working on it. The basic premise is that everyone plays an innocent bug (a wasp or caterpillar, for example) who has been imprisoned in a tower dungeon by big mean baddies – in this case cute or cuddly mammals like hedgehogs or bunny rabbits. The heroic escapees must make their way up through the tower by traversing four floors, battling their way past enemy guards or fulfilling quests. Combat uses dice, quests often call upon our bug champions to flip a token (basically a coin toss). Player interaction comes from the fact that defeating guards will usually require more than one attack and multiple heroes can gang up on one guard. Quests often offer multiple options of how to tackle them. In either case, only one hero will reap the best rewards, so letting your “comrades-in-arms” do the heavy lifting and swooping in to snatch away the best loot at the last moment is the real meat of the game. This even extends to the occasional fight breaking out among the heroes when it comes to who gets to go up the stairs to the next floor first.\n\nDespite all game components being icons-only, so language-agnostic, the rulebook gives almost everything in the game a flavourful name. There’s a rusty sword to pick up, you can learn how to show off for bonus points at the end of the game or how to push into a fight as an optional extra. Because these names often reflect the game effects, there was a lot of space for creative translation, which I always enjoy a lot. A fun romp!",
+      de: "Bei der Arbeit an dieser leicht schrägen Variante semi-kooperativer Dungeon Crawler musst ich oft schmunzeln. Es fängt alles damit an, dass man jeweils in die Rolle eines unschuldigen Krabbeltiers schlüpft (eine Wespe, zum Beispiel, oder eine Raupe), welches von Bösewichten im Verlies eines Turmes eingekerkert wurde. Die Übeltäter sind dabei niedliche oder knuddelige Säuger wie Igel oder Hoppelhasen. Die heldenhaften Ausbrüchigen müssen sich durch den Turm nach oben den Weg in die Freiheit bahnen, indem sie gegnerische Wachen bekämpfen und Missionen erfüllen. Beim Kämpfen wird gewürfelt, Missionen verlangen vom jeweiligen Krabbler oftmals das Werfen eines Schicksalsplättchens (was einem Münzwurf gleichkommt). Interaktion zwischen den Beteiligten ergibt sich daraus, dass die Wachen normalerweise nicht in einer Kampfrunde besiegt werden und unsere Helden sie zu mehreren angreifen können. Bei den Missionen gibt es oftmals verschiedene Optionen zur Erfüllung. In beiden Fällen ist gleichermaßen wahr, dass nur ein Krabbler die beste Belohnung ergattern wird. Seine „geschätzten Mitstreiter“ die harte Arbeit erledigen zu lassen, um ihnen dann im letzten Moment die fetteste Beute vor der Nase wegzuschnappen, macht also den eigentlichen Kern des Spielgeschehens aus. Das geht sogar so weit, dass die Krabbler sich ab und zu um die besten Plätze auf der Treppe ins nächste Stockwerk prügeln.\n\nDas gesamte Spielmaterial nutzt durchweg Symbole, damit ist alles außer der Anleitung sprachneutral. Dafür findet sich in selbiger für fast alles im Spiel ein klangvoller Name, der oft starken Bezug auf den jeweiligen Spieleffekt nimmt. So durfte ich dem Spiel mit kreativen Übersetzungen das schartige Schwert und den Ramschbogen hinzufügen und den Krabblern das Talent der Prahlerei an die Hand geben. Und mit einem inbrünstigen „Platz da!“ darf sich das gewiefte Ungeziefer in einen Kampf einmischen, in dem eigentlich alle Plätze besetzt sind. Hat Spaß gemacht!"
+    },
+    cover: {
+      en: {
+       image: "/images/covers/bug-run-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/440820/bug-run",
+      },
+      de: {
+       image: "/images/covers/bug-run-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/799665/german-edition",
+      },
+    },
+  },
+  {
+    slug: "botse",
+    title: {
+      en: "Elder Scrolls – Betrayal of the Second Era",
+      de: "Elder Scrolls – Betrayal of the Second Era",
+    },
+    publisher: "Frosted Games",
+    year: "2025",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "The absolutely epic conversion of Bethesda’s persistent-world MMORPG to a physical campaign-based adventure game/dungeon crawler. Chip Theory Games did an amazing job in applying the mechanics of their (then) flagship title Too Many Bones to the new IP and then layered it with their customary deluxified component quality. Despite its massive content, the game very cleverly breaks down into manageable sessions, each of which is one part of a 3-step campaign. The separate steps focus on a single mission (yeah, okay, quest) for one of the guilds in the game setting’s world Tamriel. These steps then divide into between 2 and 4 chapters, with an epic boss confrontation at the end of step 3. Along the way, there’s great ARPG-style character progression with skill trees and loot and merchants for upgrading your equipment. Because you only get to see a tiny part of all the available content per campaign, you’re never locked into a multiple-month struggle to finish a storyline and replayability is huge.\n\nTo call this project ambitious would be an understatement. For me, it was 2025’s Big Cahoona Burger. A (very) rough estimate put the scope at around 100,000 words of sprawling scenario texts, all machine-pretranslated (oh boy). I reviewed and edited the flavour texts in the game’s gazeteers – which are the individual scenario booklets for the 6 regions of the game world – translated all the scenario rules text plus most of the game’s cards, and reorganized text flow and rules descriptions to more closely mirror the sequences players would actually be following. Also, me and the editor at Frosted Games introduced a more comprehensive use of iconography and text formatting in the rules texts to improve legibility and enhance the signalling quality, which in turn benefits familiarisation and memorisation. There was a huge amount of back-and-forth, rewording, reformatting and a million tiny edits that kept the project going on for forever. Despite starting out using a CAT tool (memoQ), I ended up doing all the work in InDesign and really started getting to know the software properly. The craziest part of the job was probably creating an Elder Scrolls account and playing the video game, just to research terminology!",
+      de: "Der wahrhaft epische Transfer des MMORPGs in Bethesdas dauerhafter Welt Tamriel in ein physisches Format als kampagnenbasiertes Abenteuerspiel/Dungeon Crawler. Chip Theory Games haben meisterhaft ihre Spielmechanik aus ihrem (bis dato) Flaggschiffspiel Too Many Bones auf die neue Spielwelt zugeschnitten und dann ihre typische Deluxifizierung des Spielmaterials drübergekippt. Obwohl das Spiel mehr als einfach nur viel enthält, lässt es sich dank der ausgeklügelten Kampagnenstruktur in mundgerechte Partien unterteilen. Eine Kampagne besteht immer aus 3 Partien, bei denen jede sich um einen Auftrag (nein, eine Quest!) für eine der Gilden der Spielwelt dreht. Eine solche Quest unterteilt sich in 2 bis 4 Kapitel und mündet am Ende der dritten Quest in eine epische Konfrontation mit dem Questboss. Auf dem Weg dorthin gibt es ordentlich Charakterentwicklung in traditioneller Action-Rollenspiel-Manier, mit Talentbäumen und Beute und Händlern, die verbesserte Ausrüstung verkaufen. Weil man in jeder Partie nur einen Bruchteil dessen zu sehen bekommt, was das Spiel insgesamt zu bieten hat, muss man sich nie über mehrere Monate hinweg abmühen, eine Kampagne abzuschließen, und der Wiederspielwert bleibt lange erhalten.\n\nDieses Projekt hatte es richtig in sich. Für mich war es der Big Cahoona Burger des Jahres 2025. Pi mal Daumen hatte ich 100.000 Wörter Szenariotexte auf dem Teller, allesamt maschinell vorübersetzt (Au Backe!). Zusätzlich zur Übersetzung aller Regeltexte in den sogenannten Gazetten – die separaten Szenarioanleitungen für die insgesamt 6 Spielregionen – habe ich die Hintergrundgeschichten in den Gazetten lektoriert und überarbeitet und den Großteil aller Karten des Spiels übersetzt. Außerdem strukturierte ich die Texte und Regelerklärungen neu, um die von Spielern eigentlich durchzuführenden Handlungsabläufe besser abzubilden. Zusammen mit dem Redakteur bei Frosted Games führten wir tiefergehende Einbettung von Symbolen und Formatierungen in die Ablauf- und Effektbeschreibungen ein, um die Lesbarkeit und Signalwirkung zu verbessern, was wiederum Wiedererkennungswert und Einprägsamkeit erhöht. Dateien und Texte gingen zigmal hin und her, hier wurde umgeschrieben, da wurde neu formatiert, an einer Million Kleinigkeiten wurde gefeilt und das Projekt schien nie enden zu wollen. Obwohl ich zu Beginn noch mit einem CAT-Tool arbeitete (memoQ), war ich recht bald nur noch in InDesign unterwegs und habe dabei die Software zum ersten Mal wirklich kennengelernt. Das Schrägste am Projekt war aber wahrscheinlich, dass ich mir einen Account in Elder Scrolls zugelegt habe, nur um Terminologie zu überprüfen!"
+    },
+    cover: {
+      en: {
+       image: "/images/covers/botse-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/356080/the-elder-scrolls-betrayal-of-the-second-era",
+      },
+      de: {
+       image: "/images/covers/botse-de.webp",
+       bggUrl: "https://frostedgames.de/shop/the-elder-scrolls-betrayal-of-the-second-era/",
+      },
+    },
+  },
+    
 ];

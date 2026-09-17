@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Peralta,
+  Architects_Daughter,
+} from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
@@ -10,6 +15,18 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const peralta = Peralta({
+  variable: "--font-peralta",
+  weight: "400",
+  subsets: ["latin"],
+});
+
+const architectsDaughter = Architects_Daughter({
+  variable: "--font-architects-daughter",
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -32,7 +49,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body>
+      <body className={`${peralta.variable} ${architectsDaughter.variable}`}>
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>

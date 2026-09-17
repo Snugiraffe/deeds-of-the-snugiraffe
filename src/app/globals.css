@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Peralta&display=swap");
 
 
 /* ---------- Colours ---------- */
@@ -20,7 +19,7 @@ body {
 }
 
 body {
-  font-family: "Architects Daughter", cursive;
+  font-family: var(--font-architects-daughter), cursive;
   background-image: url("/images/background.jpg");
   background-size: cover;
   background-position: center;
@@ -31,15 +30,15 @@ body {
 /* ---------- Typography ---------- */
 
 .display-font {
-  font-family: "Peralta", serif;
+  font-family: var(--font-peralta), serif;
 }
 
 .body-font {
-  font-family: "Architects Daughter", cursive;
+  font-family: var(--font-architects-daughter), cursive;
 }
 
 .nav-button {
-  font-family: "Peralta", serif;
+  font-family: var(--font-peralta), serif;
 }
 
 .project-blurb-font {

@@ -513,4 +513,31 @@ export const projects = [
       },
     },
   },
+  {
+    slug: "flashpoint-legacy",
+    title: {
+      en: "Flash Point: Legacy of Flame",
+      de: "Flash Point: Legacy of Flame",
+    },
+    publisher: "Elznir Games",
+    year: "2025",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "This one takes all the mechanisms of its predecessor Flash Point: Fire Rescue and uses them to build a legacy campaign game. It’s a cooperative game, in which players take on the role of firefighters, trying to evacuate as many people as possible from a burning building. The game uses a clever terrain escalation mechanic to spread smoke and fire, with various added effects increasing the risk of explosions and collapsing ceilings that players need to keep an eye on, with the building’s impending total collapse acting as a final but only marginally predictable timer. The legacy campaign, which tracks players’ firefighter careers from rookies to vets across a story with crime novel elements, works by stripping down the game mechanics and then reintroducing them bit-by-bit with each subsequent scenario. There’s no component destruction as such, but you get a whole bunch of secret envelopes to open with stickers that modify the rulebook. By the end of the campaign, you have a rulebook that has all the game’s rules covered, and from then on, you can play the scenarios as one-shots using all the mechanics.\n\nThis project came together because the translator originally tasked with the job simply let an AI translate everything and then handed off the job without post-editing anything, which is just downright disgraceful (for some reason, the publisher still saw fit to include them in the credits under “preliminary translation”). The layout designer thought some of the wording was strange and spotted inconsistencies, at which point the chief editor got on the phone to the translator and it call came out. This resulted in me being brought on board to “iron out” the translation. In effect, I had to rewrite pretty much everything, but because time was critical, we decided I should do so in the final layout files. It was the first time I worked with InDesign and basically my baptism of fire in terms of layout editing. My translation was received with praise, but my pretty amateurish efforts to maintain the layout ended up doing more damage than helping, and the files needed a fair bit of “repairing”. The project taught me a lot about InDesign, albeit more in the debriefing than during the actual work. And the publisher and me also found out first hand that LLMs still aren’t quite ready to replace translators when it comes to more complex boardgames.",
+      de: "Dieses Spiel baut aus den Spielmechaniken des Vorgängers Flash Point: Flammendes Inferno ein Legacy-Kampagnenspiel. Es ist vollständig kooperativ und man tritt dabei als Mannschaft aus Feuerwehreinsatzkräften an, die möglichst viele Personen aus einem brennenden Gebäude retten sollen. Das Spiel verwendet eine schlaue Geländemechanik, die die Ausbreitung des Feuers mitsamt Rauchentwicklung, Explosionsrisiko und einstürzenden Gebäudedecken simuliert. Abgesehen davon, dass das erschwerende Elemente bei der Rettung der Verunglückten darstellt, agiert die Brandausbreitung auch als nur bedingt vorhersehbarer Countdown für die jeweilige Partie. Eine Legacy-Kampagne wird daraus, indem die meisten Spielmechaniken zunächst außen vor bleiben und dann nach und nach mit jedem weiteren Szenario Eingang ins Spielgeschehen finden. Die Szenarien folgen dabei der Karriere der Einsatzkräfte von rohen Rekruten bis hin zu erfahrenen Profis, das Ganze verwoben mit Krimi-Elementen. Es wird kein Spielmaterial zerstört, allerdings gibt es versiegelte Umschläge, die Aufkleber zur dauerhaften Veränderung der Anleitung enthalten. Nach Abschluss der Kampagne erhält man so schließlich eine Anleitung mit vollständigen Spielregeln und kann von dann an alle Szenarien als Einzelpartien mit allen Mechaniken spielen.\n\nDieses Projekt landete auf Umwegen bei mir auf dem Schreibtisch. Der ursprünglich beauftragte Übersetzer übertrug die Texte allesamt einfach nur per KI ins Deutsche und lieferte das Ergebnis ohne jedwede Nachbearbeitung, was man freundlich ausgedrückt als Frechheit bezeichnen muss (aus mir unersichtlichen Gründen hielt es der Verlag trotzdem für angemessen, ihn als verantwortlich für die „Vorab-Übersetzung“ unter den Mitwirkenden aufzuführen). Jedenfalls fiel der Layout-Grafikerin hier und da eine eigenwillige Formulierung oder Inkonsistenz auf, worauf der Redakteur sich ans Telefon klemmte und alles zutage trat. Daraufhin wurde ich mit der „Ausbügelung“ der Übersetzung betraut. Schlussendlich habe ich dann so gut wie alles neu machen müssen, da die Zeit aber drängte, sollte ich das direkt im fertigen Layout machen. Das war mein erstes InDesign-Projekt und damit meine Feuerprobe in Sachen Layoutarbeit. Mit meiner Übersetzung war der Verlag sehr zufrieden, mein tollpatschiges Rumgepfusche am Layout haben allerdings mehr geschadet als geholfen, und am Ende musste die Grafikerin so Einiges „flicken“. Das Projekt hat mich viel über InDesign gelehrt, allerdings das meiste davon erst im Nachgang. Sowohl der Verlag als auch ich haben außerdem hautnah erleben dürfen, dass LLMs bei der Übersetzung eines umfangreicheren Brettspiels nach wie vor nicht soweit sind, uns Übersetzer zu ersetzen."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/fp-legacy-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/415181/flash-point-legacy-of-flame",
+      },
+      de: {
+       image: "/images/covers/fp-legacy-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/723970/german-edition",
+      },
+    },
+  },  
 ];

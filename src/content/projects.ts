@@ -568,6 +568,60 @@ export const projects = [
     },
   },
     {
+    slug: "thesauros",
+    title: {
+      en: "Thesauros",
+      de: "Thesauros",
+    },
+    publisher: "Elznir Games",
+    year: "2025",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "I’ll pre-empt the potential confusion right away: Thesauros is Greek and means ‘treasure’. It has nothing to do with thesaurus (which is a dinosaur that eats books). \nThis is a nicely thematic worker placement title that puts players in the shoes of shady treasure hunters on a small tropical island somewhere. Everyone’s competing to find the best sunken treasures to display at the museum, where prominent placement will earn reputation. Getting to these treasures, however, requires jumping through quite a few hoops. You need antique maps to find the best locations of sunken ships, you need diving equipment to reach the deeper regions, you need better outboard motors to get out to sea faster than the others, you need sonar, harpoons, and shark cages. Oh, and workers, obviously. How do you get all this stuff? Well, you buy it with money. So, make sure you start each year by allocating sufficient funds to recruit people, research tech, buy stuff and sponsor exhibitions, pay for travel costs, and of course to bribe the local authorities. The game components are brilliant, with little wooden zodiac boats you can actually put your worker meeples into and special hats the meeples get to where when you promote them to specialists. If you and your gaming group want to up the hostile interaction, there’s mercenary rules for stealing equipment, sabotaging seaplanes, conducting smear campaigns, and even planting naval mines.\n\nAs worker placement games go, this one definitely leans towards the heavier side. In principle, the game flow is clearly organised into stages on the game board map and the rulebook structure follows these. Each individual comes with its own set of specific rules, however, so figuring out how all the aspects mesh together was key to getting everything translated nicely. Even though there’s an element of 1990s pre-prime-time adventure series – a bit of Thunder in Paradise with a smattering of Relic Hunter sans the supernatural – the inherent realism didn’t leave too much room for coming up with creative terms. I translated this one in the native layout, which saw me learning first-hand about text threading. Having the entirety of the rulebook text (33 pages) connect across all of the text frames blew the layout sky high when the German texts started doing their plus-20-percent volume thing. That didn’t keep me from enjoying the project, though.",
+      de: "Um es vorweg zu nehmen: Thesauros ist griechisch, bedeutet „Schatz“ und hat nichts mit dem Thesaurus zu tun (einem Saurier, der Bücher frisst). \nThesauros ist ein Worker-Placement-Spiel, dem es gut gelingt, den thematischen Hintergrund zum Leben zu erwecken. Man schlüpft in die Rolle leicht zwielichtiger Schatzsucher auf einer kleinen, tropischen Insel im Irgendwo und wetteifert darum die besten versunken Schätze zu heben, um sie im Musem auszustellen. Wer dort die besten Ausstellungsplätze ergattert, steht am Ende mit dem besten Ruf da. Besagte Schätze zu heben erfordert allerdings mehr als nur ein bisschen Vorbereitung. Ohne antike Schatzkarten findet man nicht den richtigen Ort für seine Tauchgänge, ohne Tauchausrüstung kommt man nicht tief genug, ohne die besten Außenborder sind alle anderen schneller an der Tauchstelle, man benötigt Sonar, Harpunen und Haikäfige. Ach ja, und Personal natürlich. Wie kommt man an all diese schönen Sachen? Naja, kaufen eben, mit Geld. Darum ist es äußerst wichtig, zu Beginn jedes Jahres die Budgets sinnvoll einzuteilen: Personalkosten wollen gedeckt sein, genauso wie der Forschungsetat für neue Technik, die Materialkosten, die Ausstellungsräume und Reisen und natürlich braucht es eine Schmiergeldkasse, um bei den Behörden vor Ort für reibungslose Abläufe zu sorgen. Das Spielmaterial ist fantastisch, mit kleinen Schlauchbootfiguren aus Holz, in die man seine Arbeitermeeple auch richtig reinsetzen kann und kleine Mützen, die die Arbeiter aufsetzen, wenn man sie zu Spezialisten befördert. Für Spielgruppen, die auf etwas aggressivere Interaktion stehen, gibt es die Gesetzlos-Variante. Damit kann man Söldner anheuern, die Ausrüstung zu stehlen, die Wasserflugzeuge sabotieren, Schmutzkampagnen durchführen und sogar Wasserminen platzieren.\n\nAls Worker-Placement-Spiel gehört dieses hier eindeutig zu den eher komplexeren. Im Prinzip ist der Spielablauf ganz deutlich anhand der Stationen auf dem Spielplan strukturiert und dasselbe gilt entsprechend für die Anleitung. Allerdings bringt jede Station im Ablauf ihr eigenes Set an Regeln mit sich, weshalb ein genaues Verständnis der ineinandergreifenden Mechanismen nötig war, um eine ordentliche Übersetzung anzufertigen. Obwohl das Flair der Abenteuerserien aus dem Vorabendprogramm der 90er Jahre zu spüren ist – ein bisschen Thunder in Paradise mit einer Prise Relic Hunter minus Übernatürliches – war wegen der Betonung auf realistische Aktionen kaum Raum für kreative Begriffsarbeit. Die Übersetzung habe ich hier komplett in den offenen Daten angefertigt, wobei ich meine ersten richtigen Erfahrungen mit Text-Threading machen durfte. Bei einer Anleitung von 33 Seiten komplett alle Texte durchgehend von einem Textrahmen in den nächsten überspülen zu lassen, haut dir das gesamte Layout so richtig um die Ohren, wenn die deutsche Sprache anfängt ihr „ich bin 20 Prozent länger als Englisch“ Ding zu machen. Ich hatte trotzdem viel Freude am Projekt."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/thesauros-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/440885/thesauros",
+      },
+      de: {
+       image: "/images/covers/thesauros-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/763292/englishgerman-edition",
+      },
+    },
+  },
+    {
+    slug: "timetopanic",
+    title: {
+      en: "Time to Panic",
+      de: "Time to Panic",
+    },
+    publisher: "IV Studio",
+    year: "2025",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "A co-op card game where players need to build a row of cards that’s as close as possible to a perfect sequence from lowest to highest card. Each card has keyword that affects the row in some way, like swapping positions or flipping cards facedown. This sometimes produces knock-on effects and is the basic puzzle players need to solve to keep their row more or less intact. Then there’s a deck of panic cards that add unhelpful confusion to the row. All of this is themed as building (or rather repairing) the timeline. In fact, if you lay out all of the timeline cards in a perfect row, the artwork combines to form one large image that sort of shows a progression from past to future. Like with all of IV Studio titles, this one has very distinct artwork, with a sort of 1930s expressionist Metropolis flavour.\n\nI enjoyed this one for the challenge of getting all those keywords translated in a way that preserved the sci-fi disaster touch as well as still expressing their effect. This was especially nice for the panic cards, which escalated particular keywords across three levels by applying adjectives to them alliteratively (like idle, intense, and impossible inversion).",
+      de: "Ein kooperatives Kartenspiel, bei dem es gilt, eine Kartenreihung herzustellen, die so nah wie möglich an eine perfekte, aufsteigende Zahlenreihe herankommt. Jede Karte hat ein Stichwort, welches die Reihe auf bestimmte Art verändert, beispielsweise durch das vertauschen von Kartenpositionen oder das Umdrehen von Karten auf ihre verdeckte Seite. Zuweilen erzeugt das verkettete Effekte, wodurch im Wesentlichen das zu lösende Puzzle des Spiels entsteht. Dazu kommt ein Stapel sogenannter Panikkarten, die die Kartenreihe mit weiterer hinderlicher Verwirrung würzen. Thematisch bildet das alles den Versuch ab, eine Zeitlinie herzustellen (or eher zu reparieren). Das ist sogar recht deutlich zu sehen, wenn man alle Karten ordentlich sortiert aneinader legt: Das ergibt ein zusammenhängendes Bild einer Art Entwicklung von der Vergangenheit in die Zukunft. Wie alle Spiele von IV Studio hat auch auch dieses seinen ganz eigenen visuellen Stil, mit Anlehnung an Metropolis und den Expressionismus der 1930er.\n\nMir hat bei diesem Projekt die herausforderung gefallen, die Stichwörter so zu übersetzen, dass sowohl der Unterton einer Science-Fiction Katastrophe als auch der Ausdruck des zugehörigen Effekts erhalten blieb. Das war bei den Panikkarten sogar noch schöner. Sie steigern jeweils ein bestimmtes Stichwortüber drei Stufen, indem sie alliterierte Adjektive hinzufügen (wie etwa interne, inkohärente, immense Implosion)."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/timepanic-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/445424/time-to-panic",
+      },
+      de: {
+       image: "/images/covers/timepanic-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/790091/german-edition",
+      },
+    },
+  },
+    {
     slug: "map-masters",
     title: {
       en: "Map Masters",
@@ -591,6 +645,33 @@ export const projects = [
       de: {
        image: "/images/covers/mapmasters-en.webp",
        bggUrl: "https://boardgamegeek.com/boardgame/443297/map-masters/versions",
+      },
+    },
+  },
+    {
+    slug: "trickykids",
+    title: {
+      en: "Tricky Kids",
+      de: "Tricky Kids",
+    },
+    publisher: "Pandasaurus Games",
+    year: "2025",
+    role: {
+      en: "Editing, German edition",
+      de: "Lektorat, deutsche Ausgabe",
+    },
+    description: {
+      en: "A trick-taking card that jumps on 2025’s dry-erase trend: before a round begins, players write the values of their cards onto the cards themselves. There’s a limit for the total value of all your cards together, but apart from that it’s open season. Add a rock-paper-scissors using the game’s three card suits to break ties and you’re ready to go. There’s an advanced variant that adds a random rules tweak to each round.\n\nA pretty straightforward translation, but the translator and me did have some fun trying to figure out what kids would call the various rules cards for the game variant (like ‘Your other right’).",
+      de: "Ein Stichspiel, das sich in den Trend des Jahres 2025 einreiht: Vor jeder Runde schreiben alle die Werte ihrer Karten mit Whiteboardmarkern auf ihre Karten. Die Gesamtsumme der Werte darf einen Höchstwert nicht überschreiten, ansonsten ist freie Zielwahl. Gleichstände werden aufgelöst, indem man den drei Farben des Spiels eine Stein-Schere-Papier Hierarchie zuteilt. Es gibt auch eine erweiterte Variante, bei der in jeder Runde eine zufällige Regeländerung Anwendung findet.\n\nAus Übersetzungssicht gibt’s hier nicht wirklich irgendwas anzumerken. Was bei diesem Projekt aber erheiternd war, war wie der Übersetzer und ich rumüberlegten, wie Schulkinder die verschiedenen Regelkarten für die Variante nennen würden (beispielsweise „Mein rechter, rechter Platz ist leer“)."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/trickykids-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/447378/tricky-kids",
+      },
+      de: {
+       image: "/images/covers/trickykids-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/447378/tricky-kids",
       },
     },
   },
@@ -621,6 +702,33 @@ export const projects = [
       },
     },
   },
+    {
+    slug: "rone-invasion",
+    title: {
+      en: "RONE: Invasion",
+      de: "RONE: Invasion",
+    },
+    publisher: "Greiferisto",
+    year: "2025",
+    role: {
+      en: "Editing German based on revised edition",
+      de: "Anpassung deutsch aufgrund Überarbeitung",
+    },
+    description: {
+      en: "RONE: Invasion mixes deckbuilding with resource management using dice crafting. Rolling your dice gives you little coloured screws that you can use to pay for a variety of actions, including playing your cards, purchasing better cards and even replacing ",
+      de: "RONE: Invasion kombiniert Deckbau mit Ressourcenmanagement unter Verwendung von Würfelverbesserung. Würfeln bringt einem kleine farbige Schrauben, die man ausgibt, um verschiedene Aktionen auszuführen. Dazu gehören das Aktivieren von Handkarten, das Kaufen besserer Karten und sogar das Austauschen farbloser Würfelaugen gegen besagte farbige Schrauben (wofür im Spiel extra kleine Schraubendreher enthalten sind!). Zusätzlich zieht man zu Beginn seines Zugs so viele Karten, wie man will. Man muss sie eben zur Aktivierung bezahlen und das Neumischen des aufgebrauchten Stapels bringt immer Nachteile. Das Spiel kann kompetitiv gegeneinander, im Solo-/Ko-opmodus mit eigenem Gegnerstapel und sogar als Ko-opkampagne gespielt werden.\n\nInsgesamt hatte ich hiermit nicht viel Arbeit. Der Autor hatte die erste Fassung der Anleitung überarbeitet, mit Zusätzen und Änderungen aufgrund Rückmeldungen der Spielerschaft. jetzt sollte die deutsche Anleitung gleichgezogen werden. Ich fand den deutschen Text unübersichtlich. Begrifflichkeiten sind nicht klar genug voneinander abgegrenzt und wann man im Spielverlauf was tun soll, ist schwer zu durchschauen. Ich hätte die ganze Anleitung gerne umfangreicher überarbeitet, aber sowohl mein Terminkalender als auch das Budget des Herausgebers standen dem im Wege. Vielleicht ergibt sich bei einer zukünftigen Neuauflage oder Erweiterung eine neue Gelegenheit."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/rone-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/368944/rone-invasion",
+      },
+      de: {
+       image: "/images/covers/rone-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/647111/german-edition",
+      },
+    },
+  },
   {
     slug: "bug-run",
     title: {
@@ -635,7 +743,7 @@ export const projects = [
     },
     description: {
       en: "This quirky take on a semi-cooperative dungeon crawler had me smiling a lot while I was working on it. The basic premise is that everyone plays an innocent bug (a wasp or caterpillar, for example) who has been imprisoned in a tower dungeon by big mean baddies – in this case cute or cuddly mammals like hedgehogs or bunny rabbits. The heroic escapees must make their way up through the tower by traversing four floors, battling their way past enemy guards or fulfilling quests. Combat uses dice, quests often call upon our bug champions to flip a token (basically a coin toss). Player interaction comes from the fact that defeating guards will usually require more than one attack and multiple heroes can gang up on one guard. Quests often offer multiple options of how to tackle them. In either case, only one hero will reap the best rewards, so letting your “comrades-in-arms” do the heavy lifting and swooping in to snatch away the best loot at the last moment is the real meat of the game. This even extends to the occasional fight breaking out among the heroes when it comes to who gets to go up the stairs to the next floor first.\n\nDespite all game components being icons-only, so language-agnostic, the rulebook gives almost everything in the game a flavourful name. There’s a rusty sword to pick up, you can learn how to show off for bonus points at the end of the game or how to push into a fight as an optional extra. Because these names often reflect the game effects, there was a lot of space for creative translation, which I always enjoy a lot. A fun romp!",
-      de: "Bei der Arbeit an dieser leicht schrägen Variante semi-kooperativer Dungeon Crawler musst ich oft schmunzeln. Es fängt alles damit an, dass man jeweils in die Rolle eines unschuldigen Krabbeltiers schlüpft (eine Wespe, zum Beispiel, oder eine Raupe), welches von Bösewichten im Verlies eines Turmes eingekerkert wurde. Die Übeltäter sind dabei niedliche oder knuddelige Säuger wie Igel oder Hoppelhasen. Die heldenhaften Ausbrüchigen müssen sich durch den Turm nach oben den Weg in die Freiheit bahnen, indem sie gegnerische Wachen bekämpfen und Missionen erfüllen. Beim Kämpfen wird gewürfelt, Missionen verlangen vom jeweiligen Krabbler oftmals das Werfen eines Schicksalsplättchens (was einem Münzwurf gleichkommt). Interaktion zwischen den Beteiligten ergibt sich daraus, dass die Wachen normalerweise nicht in einer Kampfrunde besiegt werden und unsere Helden sie zu mehreren angreifen können. Bei den Missionen gibt es oftmals verschiedene Optionen zur Erfüllung. In beiden Fällen ist gleichermaßen wahr, dass nur ein Krabbler die beste Belohnung ergattern wird. Seine „geschätzten Mitstreiter“ die harte Arbeit erledigen zu lassen, um ihnen dann im letzten Moment die fetteste Beute vor der Nase wegzuschnappen, macht also den eigentlichen Kern des Spielgeschehens aus. Das geht sogar so weit, dass die Krabbler sich ab und zu um die besten Plätze auf der Treppe ins nächste Stockwerk prügeln.\n\nDas gesamte Spielmaterial nutzt durchweg Symbole, damit ist alles außer der Anleitung sprachneutral. Dafür findet sich in selbiger für fast alles im Spiel ein klangvoller Name, der oft starken Bezug auf den jeweiligen Spieleffekt nimmt. So durfte ich dem Spiel mit kreativen Übersetzungen das schartige Schwert und den Ramschbogen hinzufügen und den Krabblern das Talent der Prahlerei an die Hand geben. Und mit einem inbrünstigen „Platz da!“ darf sich das gewiefte Ungeziefer in einen Kampf einmischen, in dem eigentlich alle Plätze besetzt sind. Hat Spaß gemacht!"
+      de: "Bei der Arbeit an dieser leicht schrägen Variante semi-kooperativer Dungeon Crawler musste ich oft schmunzeln. Es fängt alles damit an, dass man jeweils in die Rolle eines unschuldigen Krabbeltiers schlüpft (eine Wespe, zum Beispiel, oder eine Raupe), welches von Bösewichten im Verlies eines Turmes eingekerkert wurde. Die Übeltäter sind dabei niedliche oder knuddelige Säuger wie Igel oder Hoppelhasen. Die heldenhaften Ausbrüchigen müssen sich durch den Turm nach oben den Weg in die Freiheit bahnen, indem sie gegnerische Wachen bekämpfen und Missionen erfüllen. Beim Kämpfen wird gewürfelt, Missionen verlangen vom jeweiligen Krabbler oftmals das Werfen eines Schicksalsplättchens (was einem Münzwurf gleichkommt). Interaktion zwischen den Beteiligten ergibt sich daraus, dass die Wachen normalerweise nicht in einer Kampfrunde besiegt werden und unsere Helden sie zu mehreren angreifen können. Bei den Missionen gibt es oftmals verschiedene Optionen zur Erfüllung. In beiden Fällen ist gleichermaßen wahr, dass nur ein Krabbler die beste Belohnung ergattern wird. Seine „geschätzten Mitstreiter“ die harte Arbeit erledigen zu lassen, um ihnen dann im letzten Moment die fetteste Beute vor der Nase wegzuschnappen, macht also den eigentlichen Kern des Spielgeschehens aus. Das geht sogar so weit, dass die Krabbler sich ab und zu um die besten Plätze auf der Treppe ins nächste Stockwerk prügeln.\n\nDas gesamte Spielmaterial nutzt durchweg Symbole, damit ist alles außer der Anleitung sprachneutral. Dafür findet sich in selbiger für fast alles im Spiel ein klangvoller Name, der oft starken Bezug auf den jeweiligen Spieleffekt nimmt. So durfte ich dem Spiel mit kreativen Übersetzungen das schartige Schwert und den Ramschbogen hinzufügen und den Krabblern das Talent der Prahlerei an die Hand geben. Und mit einem inbrünstigen „Platz da!“ darf sich das gewiefte Ungeziefer in einen Kampf einmischen, in dem eigentlich alle Plätze besetzt sind. Hat Spaß gemacht!"
     },
     cover: {
       en: {

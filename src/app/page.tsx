@@ -4,16 +4,24 @@ import { useLanguage } from "@/components/LanguageProvider";
 
 const copy = {
   en: {
-    eyebrow: "Deeds of the Snugiraffe",
+    eyebrow: "Ben's deeds",
     title: "Translation Portfolio",
     body: "Welcome! I built this place (in an attempt) to keep track of my projects in the wild and wonderful world of boardgame localisation. Take a peek, perhaps you’ll even find something familiar.",
-    nav: ["Deeds", "Who am I?", "Drop me a line"],
+    nav: [
+     { label: "Deeds", href: "/deeds" },
+     { label: "Who's Ben?", href: "/about" },
+     { label: "Drop me a line", href: "/contact" },
+     ],
   },
   de: {
-    eyebrow: "Was Snugiraffe tat",
+    eyebrow: "Bens vollbrachte Taten",
     title: "Übersetzungen",
     body: "Herzlich willkommen! Auf dieser Baustelle versuche ich, den Überblick über meine Arbeiten in der wilden, weiten Welt der Brettspielübersetzung zu behalten. Schaut rein, vielleicht erkennt ihr sogar das eine oder andere wieder.",
-    nav: ["Taten", "Wer bin ich?", "Schreibt mir!"],
+    nav: [
+     { label: "Taten", href: "/deeds" },
+     { label: "Wer ist Ben?", href: "/about" },
+     { label: "Schreibt mir!", href: "/contact" },
+    ],
   },
 };
 
@@ -58,15 +66,15 @@ export default function Home() {
 
           <nav className="justify-self-start md:justify-self-center">
             <div className="flex w-70 flex-col gap-5">
-              {text.nav.map((item) => (
-                <a
-                  key={item}
-                  href={item === text.nav[0] ? "/deeds" : "#"}
-                  className="nav-button rounded-3xl border-4 border-[#001AE6] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
-                >
-                  {item}
-                </a>
-              ))}
+             {text.nav.map((item) => (
+             <a
+              key={item.href}
+              href={item.href}
+              className="nav-button rounded-3xl border-4 border-[#001AE6] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
+             >
+             {item.label}
+             </a>
+             ))}
             </div>
           </nav>
         </div>

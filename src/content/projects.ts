@@ -508,8 +508,8 @@ export const projects = [
        bggUrl: "https://boardgamegeek.com/boardgameexpansion/419158/kemet-rise-of-the-gods",
       },
       de: {
-       image: "/images/covers/kemet-de.webp",
-       bggUrl: "https://boardgamegeek.com/boardgameexpansion/419158/kemet-rise-of-the-gods",
+       image: "/images/covers/Kemet_cover_rulebook_German_small.webp",
+       bggUrl: "https://boardgamegeek.com/image/9827336/kemet-rise-of-the-gods-language-pack",
       },
     },
   },

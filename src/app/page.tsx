@@ -15,7 +15,7 @@ const copy = {
   },
   de: {
     eyebrow: "Bens vollbrachte Taten",
-    title: "Übersetzungen",
+    title: "Übersetzte Spiele",
     body: "Herzlich willkommen! Auf dieser Baustelle versuche ich, den Überblick über meine Arbeiten in der wilden, weiten Welt der Brettspielübersetzung zu behalten. Schaut rein, vielleicht erkennt ihr sogar das eine oder andere wieder.",
     nav: [
      { label: "Taten", href: "/deeds" },
@@ -33,8 +33,8 @@ export default function Home() {
     <main className="min-h-screen overflow-hidden text-[#001AE6]">
       <div className="relative min-h-screen px-8 py-10 md:px-16">
         
-        <div className="relative z-10 grid min-h-[calc(100vh-5rem)] items-center gap-12 md:grid-cols-[1.15fr_0.85fr]">
-          <section className="max-w-2xl">
+        <div className="relative z-10 grid min-h-[calc(100vh-5rem)] items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
+          <section className="min-w-0 max-w-2xl">
             <div className="mb-8 flex gap-3 text-sm font-bold tracking-[0.2em]">
               <button
                 onClick={() => setLanguage("en")}

@@ -41,7 +41,7 @@ export const projects = [
     },
     description: {
       en: "This one’s basically a bestiary book for gamemasters who want to spice up their games with paranormal creatures. The book divides up the various flora and fauna by habitat regions. I got to do mountains. Donning the mantle of a biologist-slash-adventurer who had a short tale of exploits to tell for each entry was fun. \n\nThe key here was to capture and convey the narrator’s enthusiasm for his chosen subject and the occasional self-deprecatory tone when relating his brushes with disaster",
-      de: "Dieses Werk ist im Grunde ein Monsterhandbuch für Spielleiter, die ihre Spielrunden mit übernatürlichen Kreaturen aufpeppen wollen. Im Buch wird die verschiedene Flora und Fauna nach Lebensräumen aufgeteilt. Mir wurde das Gebirge zugeteilt. Es war amüsant, in die Rolle eines Biologen-Schrägstrich-Abenteurers zu schlüpfen, der zu jedem Eintrag eine mehr oder weniger haarsträubende Geschichte erzählte. \n\nBei dieser Arbeit war es wichtig, die Begeisterung des Erzählers für sein Thema rüberzubringen, und bei den vereinzelten Anekdoten über brenzlige Situation den selbstironischen Ton wiederzugeben.",
+      de: "Dieses Werk ist im Grunde ein Monsterhandbuch für Spielleiter, die ihre Spielrunden mit übernatürlichen Kreaturen aufpeppen wollen. Im Buch wird die verschiedene Flora und Fauna nach Lebensräumen aufgeteilt. Mir wurde das Gebirge zugeteilt. Es war amüsant, in die Rolle eines Biologen-Schrägstrich-Abenteurers zu schlüpfen, der zu jedem Eintrag eine mehr oder weniger haarsträubende Geschichte erzählte. \n\nBei dieser Arbeit war es wichtig, die Begeisterung des Erzählers für sein Thema rüberzubringen, und bei den vereinzelten Anekdoten über brenzlige Situationen den selbstironischen Ton wiederzugeben.",
     },
     cover: {
       en: {
@@ -509,7 +509,7 @@ export const projects = [
       },
       de: {
        image: "/images/covers/Kemet_cover_rulebook_German_small.webp",
-       bggUrl: "https://boardgamegeek.com/image/9827336/kemet-rise-of-the-gods-language-pack",
+       bggUrl: "https://boardgamegeek.com/bgaccessoryversion/790137/german-edition",
       },
     },
   },
@@ -780,6 +780,33 @@ export const projects = [
       de: {
        image: "/images/covers/botse-de.webp",
        bggUrl: "https://frostedgames.de/shop/the-elder-scrolls-betrayal-of-the-second-era/",
+      },
+    },
+  },
+    {
+    slug: "lordswaterdeep",
+    title: {
+      en: "Lords of Waterdeep",
+      de: "Lords of Waterdeep",
+    },
+    publisher: "Renegade Games Studios",
+    year: "2026",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "I was absolutely delighted when this job came fluttering into my inbox: not only one of the most iconic worker placement games ever, but a game set in the very Dungeons & Dragons era I spent years of my teenage and early-adult life in. Mechanically, Lords of Waterdeep (or LoW for short) didn’t reinvent the wheel. The basic premise of placing a ‘worker’ meeple on a game board to gain something or trigger a game effect had already been around for just over a decade. However, Dungeons & Dragons’ Forgotten Realms setting enjoyed a rise to popularity and fame in the 1990s and noughties, not least thanks to its video game implementation in Neverwinter Nights, and prominently displaying the name Waterdeep on your cover was bound to give you a leg up among anyone even slightly familiar with the territory. As such, LoW is still a widely known title in the world of boardgaming. For a game that merges hidden objectives, take that, resource management, engine building, and a game map that ends up with different locations in every session, it remains a remarkably accessible game. The expansion Scoundrels of Skullkeep, which was part of the translation job too, adds the highly original corruption mechanic, which offers incredible in-game benefits at a cost of end-game score: each corruption token you have represents a penalty to your final score based on how many corruption tokens have been taken by all players in total!\n\nAs the game sits fairly comfortably in the mid-range in terms of complexity, the rulebook is on the shorter side. The original game came out in 2012, so I was also able to update bits and pieces here to incorporate errata and notes on edge cases that have cropped up over the years. Most of the game’s remaining components also feature text and this is where the work was both most fun and most time-consuming. All the location tokens are lifted directly from the rich and extensive lore of the Forgotten Realms, almost all of which has been translated into German – somewhere. Making sure that the names of places and famous characters would end up matching the official German versions required a lot of digging around in source material. I was a bit disappointed by the client’s insistence on keeping some of the names English (Waterdeep and Undermountain, for instance, which both have perfectly serviceable German names). Conversely, all the game’s cards carry flavourful titles and short bits of fluff text, so getting to translate them creatively was lots of fun.",
+      de: "Als mir dieser Auftrag in den Posteingang flatterte, ging mir richtig das Herz auf: Nicht nur eines der berühmtesten Worker-Placement-Spiele, sondern auch noch eines, das in genau der Dungeons & Dragons Ära spielt, in der ich Jahre als Jugendlicher und junger Erwachsener verbracht habe. Was die Spielmechaniken angeht, präsentiert uns Lords of Waterdeep kein rollendes, rundes Ding in neuer Aufmachung. Die wesentliche Idee, bei dem eine „Arbeiterfigur“ auf einem Spielplan platziert wird, um dafür etwas zu erhalten oder einen anderweitigen Effekt auszulösen, hatten andere schon über 10 Jahre zuvor in Umlauf gebracht. Da die Dungeons & Dragons Spielwelt der Vergessenen Reiche in den 1990ern und 2000ern aber, nicht zuletzt dank der Videospielumsetzung in Neverwinter Nights, an Bekannt- und Beliebtheit gewonnen hatte, hat das groß auf dem Schachteldeckel prangende „Waterdeep“ sicher zur Verbreitung des Spiels beigetragen, zumindest unter denjenigen, die irgendwie Berührungspunkte mit der Materie hatten. Lords of Waterdeep hat es jedenfalls geschafft, es sich dauerhaft im Vokabular der Brettspielszene bequem zu machen. Dazu schadet es sicher auch nicht, dass es trotz der Mischung aus geheimen Missionszielen, dem Stören der Pläne der anderen, Ressourcenmanagement, dem Aufbau eines Spielmotors und einem Spielplan, der bei jeder Partie andere Spielorte verfügbar macht, ein bemerkenswert zugängliches Spiel bleibt. Mit der Erweiterung Missetaten in Schädelhafen, deren Übersetzung Teil des Auftrags war, kommt dann doch noch ein äußerst originelles Spielprinzip dazu: Durch das Erhalten von Korruption können sich Spieler erhebliche Vorteile im Spiel verschaffen, allerdings nicht ohne Konsequenzen bei der Schlusswertung. Jeder Korruptionsmarker zieht von der Punktzahl am Ende ab, und zwar basierend auf der Anzahl Korruptionsmarker, die unter allen Spielern verteilt wurden!\n\nDas Spiel ist in punkto Komplexität recht deutlich im mittleren Bereich angesiedelt, daher kommt es auch mit einer eher kurzen Anleitung aus. Da das Original bereits 2012 veröffentlicht wurde, hatte ich hier gleich Gelegenheit, ein paar Errata und Hinweise zu kniffligen Situationen aus Spielerfahrungen der vergangenen Jahre direkt mit einzubauen. Auf fast allen weiteren Teilen des Spiels finden sich Texte und diese haben dann gleichermaßen den größten Spaß gemacht als auch die meiste Zeit gefressen. Alle im Spiel durch Plättchen dargestellten Orte entstammen direkt dem reichhaltigen und umfangreichen Hintergrundmaterial zu den Vergessen Reichen. Es lagen daher für alle Namen bereits Übersetzungen ins Deutsche vor – irgendwo. Sicherzustellen, dass sie alle entsprechend der offiziellen Veröffentlichungen übersetzt wurden, erforderte eifriges Wühlen in passenden Quellen. Ein wenig enttäuscht war ich dabei von der Vorgabe des Kunden, bestimmte Namen trotzdem Englisch zu belassen. Ich kann mir nicht vorstellen, dass „Tiefwasser“ oder „Unterberg“ den Absatz nennenswert geschmälert hätten. Sämtliche Karten im Spiel haben atmosphärisch passende Namen und kurze Hintergrundtexte, deren Übersetzung mir dafür umso mehr Freude gemacht hat."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/low-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/110327/lords-of-waterdeep",
+      },
+      de: {
+       image: "/images/covers/low-de.webp",
+       bggUrl: "https://www.asmodee.de/produkte/lords-of-waterdeep",
       },
     },
   },

@@ -23,17 +23,17 @@ export default function ProjectPage() {
   
 
   if (!project) {
-    return <main className="p-10 text-[#001AE6]">Project not found.</main>;
+    return <main className="p-10 text-[var(--snug-blue)]">Project not found.</main>;
   }
 
   return (
-    <main className="min-h-screen px-8 py-10 text-[#001AE6] md:px-16">
+    <main className="min-h-screen px-8 py-10 text-[var(--snug-blue)] md:px-16">
       <Link href="/deeds" className="body-font text-xl underline">
        {ui[language].back}
       </Link>
 
       <div className="mt-10 grid gap-8 md:grid-cols-[minmax(0,1fr)_280px] md:items-start">
-  <article className="rounded-3xl border-4 border-[#001AE6] bg-[#FFDF9D]/75 p-8 shadow-[8px_8px_0_#001AE6]">
+  <article className="rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/75 p-8 shadow-[8px_8px_0_var(--snug-blue)]">
     <div className="mb-8 flex gap-3 text-sm font-bold tracking-[0.2em]">
       <button
         onClick={() => setLanguage("en")}

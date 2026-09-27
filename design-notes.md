@@ -22,7 +22,7 @@ Colour Palette
 Primary Background
 #FFDB61
 Primary Text / Accent
-#001AE6
+#1F309D
 Additional colours should be introduced sparingly.
 ________________________________________
 Typography

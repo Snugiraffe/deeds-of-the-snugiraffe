@@ -43,12 +43,12 @@ export default function AboutPage() {
   const text = copy[language];
 
   return (
-    <main className="min-h-screen px-8 py-10 text-[#001AE6] md:px-16">
+    <main className="min-h-screen px-8 py-10 text-[var(--snug-blue)] md:px-16">
       <Link href="/" className="body-font text-xl underline">
         {text.back}
       </Link>
 
-      <article className="mt-10 max-w-3xl rounded-3xl border-4 border-[#001AE6] bg-[#FFDF9D]/75 p-8 shadow-[8px_8px_0_#001AE6]">
+      <article className="mt-10 max-w-3xl rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/75 p-8 shadow-[8px_8px_0_var(--snug-blue)]">
         <div className="mb-8 flex gap-3 text-sm font-bold tracking-[0.2em]">
           <button
             onClick={() => setLanguage("en")}

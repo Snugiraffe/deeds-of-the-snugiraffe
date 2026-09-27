@@ -30,7 +30,7 @@ export default function Home() {
   const text = copy[language];
 
   return (
-    <main className="min-h-screen overflow-hidden text-[#001AE6]">
+    <main className="min-h-screen overflow-hidden text-[var(--snug-blue)]">
       <div className="relative min-h-screen px-8 py-10 md:px-16">
         
         <div className="relative z-10 grid min-h-[calc(100vh-5rem)] items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
@@ -70,7 +70,7 @@ export default function Home() {
              <a
               key={item.href}
               href={item.href}
-              className="nav-button rounded-3xl border-4 border-[#001AE6] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
+              className="nav-button rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
              >
              {item.label}
              </a>

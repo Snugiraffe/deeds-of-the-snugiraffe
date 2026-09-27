@@ -18,14 +18,19 @@ export default function DeedsPage() {
     },
   };
 
-  const sortedProjects = [...projects].sort(
-    (a, b) => Number(b.year) - Number(a.year)
-  );
+  const projectsByYear = [...projects]
+  .sort((a, b) => Number(b.year) - Number(a.year))
+  .reduce((groups, project) => {
+    if (!groups[project.year]) {
+      groups[project.year] = [];
+    }
 
-  let currentYear = "";
+    groups[project.year].push(project);
+    return groups;
+  }, {} as Record<string, typeof projects>);
 
   return (
-    <main className="min-h-screen px-8 py-10 text-[#001AE6] md:px-16">
+    <main className="min-h-screen px-8 py-10 text-[var(--snug-blue)] md:px-16">
 
       
        <div className="mb-8 flex gap-3 text-sm font-bold tracking-[0.2em]">
@@ -56,31 +61,26 @@ export default function DeedsPage() {
       
       
       <div className="max-w-3xl md:ml-24">
-        {sortedProjects.map((project) => {
-          const showYear = project.year !== currentYear;
+       {Object.entries(projectsByYear)
+        .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+        .map(([year, yearProjects]) => (
+       <section key={year} className="relative mb-10">
+       <h2 className="display-font sticky top-8 z-20 mb-4 mt-10 w-fit text-3xl font-black md:-ml-24">
+        {year}
+       </h2>
 
-          if (showYear) {
-            currentYear = project.year;
-          }
-
-          return (
-            <div key={project.slug}>
-              {showYear && (
-                <h2 className="display-font mb-4 mt-10 text-3xl font-black">
-                  {project.year}
-                </h2>
-              )}
-
-              <Link
-                href={`/deeds/${project.slug}`}
-                className="body-font mb-5 block rounded-3xl border-4 border-[#001AE6] bg-[#FFDF9D]/75 p-4 text-2xl shadow-[8px_8px_0_#001AE6] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_#001AE6]"
-              >
-                {project.title[language]}
-              </Link>
-            </div>
-          );
-        })}
-      </div>
+        {yearProjects.map((project) => (
+        <Link
+          key={project.slug}
+          href={`/deeds/${project.slug}`}
+          className="body-font mb-5 block rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/75 p-4 text-2xl shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
+        >
+          {project.title[language]}
+        </Link>
+        ))}
+       </section>
+       ))}
+       </div>
     </main>
   );
 }

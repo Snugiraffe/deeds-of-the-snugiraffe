@@ -810,5 +810,167 @@ export const projects = [
       },
     },
   },
+    {
+    slug: "shadowrun-korea",
+    title: {
+      en: "Shadowrun – Seoul Survivor",
+      de: "Shadowrun – Die Schatten von Korea",
+    },
+    publisher: "Pegasus Spiele",
+    year: "2026",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "Welcome back to the shadows, runners! That is, if you can actually find any here, in the non-stop neon-flooded city-come-mall of the Sixth World’s next up-an-coming tech power. That’s right, chumidas, we’re about to hit the runway in the Republic of Korea. It’s dazzled your eyes with beautiful people in K-dramas and the catchy tune you’ve been humming all the way was constructed with utmost care by K-pop engineers in that skyraker we just passed. If you think that’s what life down there really looks like, stay on the plane. Otherwise, here’s some advice: Hone that demur smile and keep your wise-cracking tongue in check. Everyone here does AAA courtesy to your face and everyone here’s got an agenda, a watchdog on their shoulder, and a blade behind their back with your name on it. Yeah, you’re probably a trade name back in the UCAS or the ADL, but so what? No matter your exploits, you’re not ready for this place. If you’re aiming for the top, aim lower. If you’re a step ahead, you’re still too slow. You have top ‘ware? This is where they make it. Everything here moves so fast – no, faster – that you’re abandonware already. Welcome to the party!\n\nAnother fun ride into the Shadowrun universe. This time, source material and game info for playing in Korea. Let’s just assume that this thing hitting digital stores the winter after Netflix hit record viewing numbers with a trio of singing Korean demon slayers was pure coincidence. As usual, diving into the snarky tone and capturing the marriage of bleak dystopia with wild techno-fantasy was an absolute blast.",
+      de: "Willkommen zurück in den Schatten, Runner! Sofern ihr in den durchgehend neongefluteten Straßenzügen eines zum Einkaufszentrum gemorphten Megaplexes noch irgendwo echten Schatten finden könnt. Ja genau, wir setzen zum Landeanflug an und in wenigen Minuten seid ihr da, wo die Sechste Welt die Hightech von morgen schon heute anbietet: in der Republik Korea. Die K-Dramen haben euch geblendet mit der überirdischen Schönheit der Menschen hier und den Ohrwurm, den ihr schon die ganze Reise über vor euch hinsummt, haben K-Pop Ingenieure in dem Wolkenkratzer da drüben mit präziser Planung konstruiert. Wer glaubt, das Leben da unten fühlt sich genau so an, steigt bitte gar nicht erst aus dem Flugzeug. Für die anderen gibt’s einen Rat mit auf den Weg: Poliert euer demütigstes Lächeln und steckt die klugen Sprüche, die euch schon auf der Zunge tanzen, in Einzelhaft. Hier werden euch alle mit AAA-Benimm begegnen und hier haben alle Hintergedanken, einen Überwacher im Nacken und eine versteckte Klinge im Anschlag, extra für euch persönlich. Sicher, ich glaube euch, dass eure Namen in der UCAS oder der ADL heißer gehandelt werden als Deltachrom. Schön für euch. Egal, was ihr euch bisher auf die Teller gepackt habt, hier seid ihr Frischfleisch. Ihr wollt die fettesten Fische? Vergesst es. Ihr seid immer einen Schritt voraus? Das sind zwei Schritte zu wenig. Ihr habt die allerneuesten Spielsachen? Die sind alle von hier und waren gestern schon überholt. Hier läuft alles so schnell – nein, noch schneller – dass ihr jetzt schon Altware seid. Also auf in den Tanz.\n\nWieder einmal eine herrliche Reise ins Shadowrun-Universum. Dieses Mal mit Hintergrundmaterial und Spielregeln, um das Rollenspiel in Korea anzusiedeln. Wir gehen einfach mal davon aus, dass die Veröffentlichung dieser reinen Digitalausgabe im Winter nach dem Netflix Sommerhit mit den drei singenden koreanischen Dämonenkillern nichts als purer Zufall war. Für mich jedenfalls war das Eintauchen in den lässigen Sarkasmus und das Wiedergeben der Mischung aus trostloser Dystopie und abgedrehter Technofantasie wie immer das reinste Vergnügen."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/sr-korea-en.webp",
+       bggUrl: "https://rpggeek.com/rpgitem/450684/seoul-survivor-republic-of-korea-data-download",
+      },
+      de: {
+       image: "/images/covers/sr-korea-de.webp",
+       bggUrl: "https://www.pegasusdigital.de/en/product/572447/shadowrun-kaleidoskope-die-schatten-von-korea",
+      },
+    },
+  },
+    {
+    slug: "questinc",
+    title: {
+      en: "Quest Inc.",
+      de: "Quest GmbH & Co. KG",
+    },
+    publisher: "Mirakulus",
+    year: "2026",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "A pretty tongue-in-cheek take on dungeon crawling, this one puts player in charge of a quest-completion agency. Players bid on a selection of available quests, in essence providing quotes, with the agency willing to complete a quest at lowest price being awarded the job. Players will need to hire adventurers to send out, but overall these are considered entirely expendable. It’s not about coming out alive, it’s about the cash you made along the way. Final scoring relies to a large degree on set collection.\n\nThe game’s concept and artwork emphasise goofiness and fun, but there’s still a certain crunchiness in there, too. Almost all of the various quests, monsters, treasures and characters in the game feature some sort of pun or comedic reference to classic fantasy tropes: The “blazing blade” comes with an oven glove as standard, there’s a set of “plot armor” you can equip, and quests demand things like hugging the lava golem or getting the ogre drunk. I really loved the nod to Bad Taste (blow up the sheep), too. This is exactly the kind of thing I love translating, because capturing a joke can be challenging and because I usually get given a bit of leeway to come up with funny names of my own.",
+      de: "Eine ziemliche ulkige Umsetzung eines Dungeon Crawlers. Die Spieler übernehmen jeweils die Leitung einer Questerfüllungsagentur und versuchen sich bei der Vergabe von Aufträgen gegenseitig zu unterbieten. Wer einen Zuschlag bekommt, muss in der Stadt Abenteurer anheuern, die aber grundlegend als Verbrauchsmaterial betrachtet werden. Was am Ende zählt, ist der Lohn für die Aufträge und was man unterwegs so an Schätzen einsacken kann. Bei der Schlusswertung macht es sich bezahlt, Gegenstände aus passenden Sets zusammenzuhaben.\n\nSpielkonzept und künstlerische Gestaltung betonen Spaß und Albernheit, was aber nicht heißt, dass das Spiel Nebensache ist, Planung und Abwägung kommen nicht zu kurz. Dabei findet man aber trotzdem auf so gut wie jeder Quest, jedem Monster, jedem Schatz und jedem Charakter im Spiel irgendein Wortspiel oder eine Anspielung auf typische Fantasy-Stereotypen: Das Feuerschwert ist ein „heißes Eisen“ und kommt mit Ofenhandschuh daher, der Tarnumhang hat eine integrierte Nasenbrille und die Quests verlangen Unfug wie das Trösten des Lavagolems oder das Abfüllen des Ogers. ich habe mich besonders über den Wink an Bad Taste gefreut (man soll ein Schaf in die Luft jagen). Diese Art von Übersetzungsauftrag finde ich immer super, einerseits fordern Wortspiele und Witze einen immer heraus, andererseits hat man oft einiges an künstlerischer Freiheit beim Erfinden von witzigen Namen."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/questinc-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/392465/quest-inc",
+      },
+      de: {
+       image: "/images/covers/questinc-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/789214/german-edition",
+      },
+    },
+  },
+    {
+    slug: "railwayboom",
+    title: {
+      en: "Railway Boom",
+      de: "Railway Boom",
+    },
+    publisher: "Strohmann Games",
+    year: "2026",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "This time, we’re off to Japan in the late 19th century, where we’ll be attempting to become the country’s biggest railway operator as the industry begins to take off in earnest. The game has players acquire trains, build tracks and research tech, then everyone generates income and runs their trains to receive a variety of benefits from additional resources to tech to points. The trains themselves require coal to run and produce their effects depending on how well you managed to put them together earlier in the round: Most phases begin with an auction to establish player order for that phase. Final scoring is variable as each session only uses a random selection of the various endgame objectives and favoured city connections.\n\nThe game components rely heavily on icons, but as usual the cards all have a flavourful name that I got to localise more or less creatively. The rest of the translation work focused on the rulebook, which itself was that rare breed of manual that didn’t throw up any questions, errors or headscratchers. \nI did all the translation work in the native layout files. Some of it was a tiny bit fiddly, but the rulebook was a great opportunity to practise working with character and paragraph styles in InDesign.",
+      de: "Wir befinden uns im Japan des späten 19. Jahrhunderts, wo wir bestrebt sind, inmitten des Aufschwungs Branche der größte Bahnbetreiber des Landes zu werden. Dazu werden Züge gekauft, Strecken ausgebaut und technologien entwickelt, dann Einkommen generiert. Danach dürfen die Züge auch mal fahren, was zusätzlich Ressourcen, Technologien oder Punkte bringt. Die Züge selbst benötigen dabei genügend Kohle. Was und wie effektiv sie sie selbiges einbringen, hängt davon ab, was man vorher in der Runde ergattern konnte: Die meisten Phasen beginnen nämlich mit einer Auktion, bei der um die Spielreihenfolge geboten wird. Die Schlusswertung ist variabel, da bei jeder Partie die Meilensteine und bevorzugten Städteverbindungen zufällig gezogen werden.\n\nDas Spielmaterial nutzt überwiegend Symbole, außer dass die Karten wie so oft alle passende Namen haben, die ich mehr oder weniger frei lokalisieren durfte. Die restliche Übersetzungsarbeit konzentrierte sich auf die Anleitung, die zu der seltenen Spezies gehört, die weder Fragen aufwarf, noch Fehler oder Unklarheiten zum Ausbügeln enthielt. \nDiesen Auftrag habe ich komplett in den offenen Daten erledigt. Das war hier und da etwas friemilig, aber die Anleitung war bestens geeignet, um den Umgang mit Zeichen- und Absatzformatierungen in InDesign zu üben."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/railboom-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/448159/railway-boom",
+      },
+      de: {
+       image: "/images/covers/railboom-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/795899/german-edition",
+      },
+    },
+  },
+    {
+    slug: "champs-of-rokugan",
+    title: {
+      en: "Champions of Rokugan",
+      de: "Champions of Rokugan",
+    },
+    publisher: "Monolith Board Games",
+    year: "2026",
+    role: {
+      en: "Editing, German edition",
+      de: "Lektorat deutsche Ausgabe",
+    },
+    description: {
+      en: "“The author, Julien, wants me to thank you and your team on his behalf. He really appreciates that you've done so much to make his game a better version of itself and values your work greatly.”\n\nChampions of Rokugan takes on the Legend of the Five Rings IP and applies it to a strategy boardgame with a narrative-driven campaign. It leans towards semi-cooperative, because players do compete for most glory, but essentially none of the scenarios can be completed if the champions don’t work together. Some of the scenarios include an ‘investigation’ part without combat, but most of the game’s meat is in the map-based fighting. There are lots of elements you might recognise from tabletop wargaming, despite there being a game board that delineates spaces to govern movement and ranges. All scenarios require five champion characters, so the game supports up to five players, with rules tweaks allowing for fewer all the way down to solo play. Each of the major clans from the licensed IP is represented by several playable characters, there are variable player powers and secret objectives. A nice twist on the win conditions campaign games in a similar vein tend to use is that the characters are required to maintain a certain total amount of ‘honour’, otherwise the scenario fails regardless of objective completion. Obviously, the gameplay provides incentives for acting dishonourably (ganging up on opponents to gain an advantage or using underhand tactics to adjust dice rolls), creating a decision space. The evil minions invading the Emerald Empire from the Shadowlands to the south may also sully the champions’ purity, which is another way to lose honour. Overall, combats are determined very much by chucking a small handful of dice, placing the game pretty solidly in Ameritrash territory, despite all of its mitigation options and the coop. It's a Monolith Games title, so it has oodles of finely sculpted miniatures. Coming from the realm of L5R, the artwork is also absolutely gorgeous.\n\nThe project totalled a whopping 61,000 words across 100 pages of rulebook and scenario booklet, along with close to 300 cards. The translator did a decent enough job, but she was still junior level and the complexity of the rules meant that there was a lot of nuance that needed to be conveyed precisely. That said, a fair amount of the nuance already needed polishing in the English source texts, including some substantial modifications to a number of scenarios. We communicated fairly closely with the game designers, who were glad to incorporate many of my suggestions, even though some issues will only have made it into the German texts due to printing deadlines. \nThere was also a lot of flavour text, which required dipping our toes into the lore of L5R. And I got to translate an actual short poem about the seven clans, which is something I really do like doing.\nIn the end, our work merited official praise from the designer, as quoted at the top of this entry.",
+      de: "„Julien, der Autor, hat mich gebeten, Ihnen und Ihrem Team in seinem Namen zu danken für alles, was Sie getan haben, um das Spiel noch besser zu machen. Er lobt Ihre Arbeit in den höchsten Tönen.“\n\nChampions of Rokugan kleidet sich in die Welt der Legende der fünf Ringe (auch L5R abgekürzt), um Spielern ein Strategiespiel mit Erzählkampagne zu bieten. Man kann es als semi-kooperativ bezeichnen, da es einen Wettstreit um den meisten Ruhm gibt, insgesamt kann aber keines der Szenarien gewonnen werden, wenn die Champions nicht zusammenarbeiten. Manche Szenarien beinhalten eine „Ermittlung“, bei der nicht gekämpft wird, das Spiel lebt aber größtenteils von Kämpfen zwischen Figuren auf einem in Felder unterteilten Spielplan. In vielen der Abläufe kann man einen Ursprung im Tabletop-Wargaming erahnen, trotz des besagten Spielplans mit Feldern, an welchen man Reichweiten für Bewegung und Fernkampf abzählt. In jedem Szenario müssen 5 Championcharaktere antreten, man kann also zu fünft spielen. Natürlich gibt es Regeln, die Partien mit weniger Personen erlauben, bis hin zum Solomodus. Es sind alle großen Klans der L5R-Marke mit mehreren spielbaren Charakteren vertreten, diese haben jeweils unterschiedliche Fähigkeiten und es gibt geheime Sekundärziele. Originell ist der Zusatz zur üblichen Siegbedingung aus ähnlichen Kampagnenspielen: Die Erfüllung der Missionsziele zählt nur, wenn die Gruppe der Charaktere insgesamt ausreichend „Ehre“ beweist. Selbstredend bietet der Spielablauf immer wieder Anreize für unehrenhaftes Verhalten (Feinde in der Unterzahl sind leichter zu besiegen oder man könnte Täuschungen anwenden, um seine Würfelergebnisse zu verändern), was abwägen erfordert. Hinzu kommen die bösen Kreaturen der Schattenlande, die aus dem Süden in das Smaragdgrüne Reich einfallen. Wer ihnen begegnet, läuft Gefahr, in seiner Reinheit besudelt zu werden, was auch Ehre kostet. Obwohl sich einige Möglichkeiten zur Manipulation von Würfelergebnissen bieten, ist schlussendlich nicht am Würfelglück vorbeizukommen, daher positioniert sich das Spiel selbst als Ko-op recht eindeutig im Feld des Ameritrash. Da es aus dem Hause Monolith Games stammt, wartet es mit haufenweise wunderschöner Kunststoffminiaturen auf. Da es außerdem die L5R-Marke bedient, ist auch die Bildgestaltung überragend.\n\nDieses Projekt brachte stolze 61.000 Wörter auf die Waage, verteilt auf 100 Seiten Anleitungs- und Szenarienhefte, mit einer Beilage von knapp 300 Karten. Die Übersetzerin hat ganz gute Arbeit abgegeben, aber ohne jahrelange Erfahrung und bei der gegebenen Komplexität der Regeln gab es immer wieder Nuancen, die untergegangen waren. Dazu darf man aber anmerken, dass Einiges an Nuancen bereits in der Ausgangssprache einer ordentlichen Politur bedurfte, was bei manchen Szenarien zu nicht unerheblichen redaktionellen Änderungen führte. Die Autoren beteiligten sich recht rege an der Projektkommunikation und integrierten gerne viele meiner Vorschläge, obwohl Drucktermine den Einzug einiger davon in die englische Ausgabe verhinderten. \nEin ordentlicher Teil der Texte war atmosphärischer Hintergrund, weswegen wir öfter mal in die Welt der L5R eintauchen mussten. An einer Stelle gab es sogar ein kleines Gedicht über die sieben Klans, dessen Übersetzung mir zufiel. Sowas mache ich immer richtig gerne.\nZum Abschluss des Projekts ließ uns der Autor noch persönliche Worte des Danks zukommen, die ich zu Beginn dieses Eintrags zitiere."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/cor-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/434333/champions-of-rokugan",
+      },
+      de: {
+       image: "/images/covers/cor-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/778098/german-edition",
+      },
+    },
+  },
+    {
+    slug: "ae-genesis",
+    title: {
+      en: "Andromeda's Edge: Genesis",
+      de: "Andromeda's Edge: Genesis",
+    },
+    publisher: "Frosted Games",
+    year: "2026",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "Andromeda’s Edge is a heavy strategy game about space exploration by rival extraterrestrial factions. The idea is that a long-lost but highly advanced earlier civilisation has left remnants in the local galactic sector that everyone now wants to exploit to support their own civilisation’s progress. It’s a game I’ve had my eye on ever since I saw it demo’d at SPIEL in 2024. What always kept me from pulling the trigger was that I’m pretty sure I’ll never get it to the table without travelling to see gaming folks who will be happy to take on its weight.\nSo, when I got wind of Frosted Games taking on the expansion, I hustled my contacts for the job. There’s no better excuse to get a big game title than to say I need it for professional reasons.\n\nThis project was for translation of the Genesis expansion, which adds three new factions, new sectors to explore and three new major mechanics (corrupted stars, shrines, and exotech). I like working for Frosted Games, because I appreciate the creative breathing space their approach to localisation affords. They’ll always do some rearranging here, add some of their own touches there, and generally make sure that any small flaws in the original design are smoothed out before publishing the German edition. \nAs always when working on an expansion for a game I’ve not been previously involved in, I needed to go through both the English and German base games with a fine-toothed comb to be able to match the style. This was also another set of files I translated directly in the native layout.",
+      de: "Andromeda’s Edge ist ein Expertenspiel aus der Strategiesparte. Thematisch geht es um die Erkundung neuer Sektoren im Weltraum, wobei man jeweils in die Rolle einer außerirdischen Spezies schlüpft. In den bisher unerforschten Sektoren warten die Überreste einer längst vergangenen, aber hochentwickelten Zivilisation, und so wird aus entspannter Erkundung ein Wettrennen darum, seine Spezies zur galaktischen Vorherrschaft zu führen. Das Spiel reizt mich, seit ich 2024 einer Vorstellung auf der SPIEL beiwohnen durfte. Ich hatte mir die Anschaffung immer wieder verkniffen, weil es nur Menschen mit mir spielen werden, deren Wohnorte in mehrstündiger Entfernung liegen.\nSobald ich aber Wind davon bekam, dass Frosted Games sich auch der Erweiterung annehmen würden, bekniete ich meine Kontakte, mir den Zuschlag zur Übersetzung zu erteilen. Dass ich ein Spiel aus beruflichen Gründen brauche, ist die Ausrede schlechthin, es mir anzuschaffen.\n\nZur Übersetzung stand hier die Erweiterung aus, die dem Spiel drei neue Fraktionen, neue erkundbare Sektoren und drei neue Spielmechaniken hinzufügt (verdunkelte Sterne, Schreine und Exotech). Ich arbeite gerne für Frosted Games, da deren Ansatz bei Lokalisierungen immer einen gewissen kreativen Freiraum mit sich bringt. Frosted wird immer hier ein wenig schleifen, da ein wenig umstrukturieren und allgemein ein Auge darauf haben, alle Unstimmigkeiten im ursprünglichen Entwurf vor der Veröffentlichung der deutschen Ausgabe auszumerzen.\nWie immer wenn ich an einer Erweiterung zu einem Spiel arbeite, bei dem ich vorher nicht an Bord war, musste ich auch hier die englische und deutsche Ausgabe des Grundspiels minutiös durchgehen, um beim Übersetzen den Stil richtig zu treffen. Genesis habe ich auch direkt in den offenen Daten übersetzt."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/ae-gen-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/452835/andromedas-edge-genesis",
+      },
+      de: {
+       image: "/images/covers/ae-gen-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/809320/german-edition",
+      },
+    },
+  },
+    {
+    slug: "skyempire",
+    title: {
+      en: "Sky Empire",
+      de: "Sky Empire",
+    },
+    publisher: "Greymarsh Games",
+    year: "2026",
+    role: {
+      en: "Translation and page layout, English to German",
+      de: "Übersetzung und DTP, Englisch → Deutsch",
+    },
+    description: {
+      en: "In 2025, my visit to the SPIEL trade fair in Essen resulted in the happy coincidence of my meeting Preben Møller. Preben is a Danish game designer who has just started his own publishing company, Greymarsh Games. Sky Empire is his first title, and it’s a big one!\nThe game is a 4X – eXplore, eXpand, eXploit, eXterminate – set on a steampunky alien world, where the frog-like ‘Dopplers’ pilot blimp-like airships from island to island through a sea of clouds. Their planet is being invaded by mysterious, hostile outsiders, and victory can only be achieved by recovering four powerful crystals. Of course, everyone wants to be the one who does so, so the race is on. The game has a modular map where exploration, base building, and combat take place and adds off-map powers to be chosen and used every round. The mechanics weave well into each other and the downtime between turns is remarkably low for a 4X game of this complexity.\n\n40 pages of rulebook, 250+ cards, and a whole gaggle of additional components with text on them. This project is one of my absolute favourites. I got to translate absolutely every part of the game and also had free reign in adjusting the layout. Preben was also readily available for any questions, suggestions and feedback, and you simply can’t beat a direct line to the actual designer. While working on the various files, it transpired that there wasn’t really a layout specialist clientside who would take care of touching up all the images of cards and components in the rulebook. Nor would anyone apart from Preben be modifying the Photoshop files, which were the only available format for the different player aids and tiles. So – and because I was really invested in making this game as good as possible – I ended up teaching myself enough Photoshop skills to take care of that aspect, too. And that’s why Sky Empire is such a favourite of mine: I pulled this job entirely without any outside involvement, the game is awesome, the designer is a fun person to work with, I had creative freedom, and I learnt a huge amount about how to use InDesign and Photoshop.",
+      de: "2025 verhalf mir der Zufall auf der SPIEL in Essen zu einer Begegnung mit einem gewissen Preben Møller. Preben ist ein dänischer Spieleautor, der jüngst einen eigenen Verlag namens Greymarsh Games gegründet hat. Sky Empire ist sein erstes Spiel und ist gleich ein großer Wurf!\nDas Spiel ist was ich gerne ein 4E nenne – vom Englischen 4X für eXplore (Erkundung), eXpand (Einfluss), eXploit (Erschließung) und eXterminate (Eliminierung). Die Rahmenhandlung hat als Schauplatz einen außerirdischen Planeten, auf dem die froschähnlichen „Doppler“ in Steampunkzeppelinen von Insel zu Insel durch ein Meer aus Wolken reisen. Auf dem Planeten fallen feindselige Aliens ein und die einzige Rettung der Doppler besteht darin, vier mächtige Kristalle zu finden. Selbstverständlich gibt es einen großen Anreiz dafür, sie selbst vor allen anderen zu finden, und so fällt der Startschuss. Das Spiel hat einen variabel zusammengesetzten Spielplan, auf dem Erkundung, Gebäudebau und Luftkämpfe stattfinden. Ein Nebentableau bietet Fähigkeiten, die durch das Platzieren von Figuren in jeder Runde neu ausgewählt werden. Die verschiedenen Spielmechanismen greifen geschickt ineinander und die Wartezeiten während der Züge der Gegner sind angesichts der Komplexität des Spiels überraschend kurz.\n\n40 Seiten Regeltexte, über 250 Karten und ein ganzer Haufen weiterer Elemente mit Text darauf. Dieses Projekt ist eines meiner absoluten Lieblinge. Ich habe wirklich absolut jeden Teil des Spiels übersetzt und durfte das Layout frei nach Gutdünken anpassen. Preben war auch stets für jeglichen Austausch zu haben, egal ob Verständnisfrage, Vorschlag oder Kritik. Ein direkter Draht zum Autor ist unschätzbar und durch nichts zu ersetzen. Während der Arbeit an den Texten kristallisierte sich dann auch heraus, dass auf Auftraggeberseite kein Layoutspezialist oder Grafiker zum Setzen der Anleitung und Einfügen übersetzter Grafiken zur Verfügung stand. Oder dass überhaupt jemand außer Preben selbst meine Übersetzungen in die diversen Spielhilfen oder Plättchen einpflegen würde, die allesamt nur als Photoshopdateien vorlagen. Daher – und weil ich aus dem Spiel wirklich das bestmögliche machen wollte – arbeitete ich mich in Photoshop ein, zumindest so weit, dass ich eben die nötigen Arbeiten erledigen konnte. Und genau deswegen ist dieses Projekt eines meiner Lieblinge: Den Auftrag habe ich komplett im Alleingang an Land gezogen, das Spiel ist super, mit dem Autor zu arbeiten macht Spaß, ich hatte kreativen Freiraum und ich habe unglaublich viel gelernt über das Arbeiten mit InDesign und Photoshop."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/sky-emp-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/414316/sky-empire",
+      },
+      de: {
+       image: "/images/covers/sky-emp-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/414316/sky-empire",
+      },
+    },
+  },
     
 ];

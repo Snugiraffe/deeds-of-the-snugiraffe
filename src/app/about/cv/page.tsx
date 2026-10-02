@@ -11,6 +11,15 @@ const copy = {
     cvLabel: "Curriculum Vitae",
     open: "Open PDF",
     download: "Download",
+    diptransLabel: "IoL Level 7 Certificate",
+    diptransOpen: "Open PDF",
+    diptransDownload: "Download",
+    dscLabel: "Reference Document Service Center (German)",
+    dscOpen: "Open PDF",
+    dscDownload: "Download",
+    lionbridgeLabel: "Reference Lionbridge (German)",
+    lionbridgeOpen: "Open PDF",
+    lionbridgeDownload: "Download",
   },
   de: {
     back: "← Zurück zu Wer ist Ben?",
@@ -19,16 +28,37 @@ const copy = {
     cvLabel: "Lebenslauf",
     open: "PDF öffnen",
     download: "Herunterladen",
+    diptransLabel: "IoL Level 7 Urkunde",
+    diptransOpen: "PDF öffnen",
+    diptransDownload: "Herunterladen",
+    dscLabel: "Arbeitszeugnis Document Service Center",
+    dscOpen: "PDF öffnen",
+    dscDownload: "Herunterladen",
+    lionbridgeLabel: "Arbeitszeugnis Lionbridge",
+    lionbridgeOpen: "PDF öffnen",
+    lionbridgeDownload: "Herunterladen",
   },
 };
 const documents = {
   en: {
     cv: "/documents/CV_ben-shipham.pdf",
     thumbnail: "/images/documents/thumbnail-cv-2026-en.webp",
+    diptrans: "/documents/diptrans.pdf",
+    diptransThumbnail: "/images/documents/thumbnail-diptrans.webp",
+    dsc: "/documents/Zeugnis_DSC.pdf",
+    dscThumbnail: "/images/documents/thumbnail-zeugnis-dsc.webp",
+    lionbridge: "/documents/Zeugnis_Lionbridge.pdf",
+    lionbridgeThumbnail: "/images/documents/thumbnail-zeugnis-lionbridge.webp"
   },
   de: {
     cv: "/documents/Lebenslauf_ben-shipham.pdf",
     thumbnail: "/images/documents/thumbnail-cv-2026-de.webp",
+    diptrans: "/documents/diptrans.pdf",
+    diptransThumbnail: "/images/documents/thumbnail-diptrans.webp",
+    dsc: "/documents/Zeugnis_DSC.pdf",
+    dscThumbnail: "/images/documents/thumbnail-zeugnis-dsc.webp",
+    lionbridge: "/documents/Zeugnis_Lionbridge.pdf",
+    lionbridgeThumbnail: "/images/documents/thumbnail-zeugnis-lionbridge.webp"
   },
 };
 
@@ -77,17 +107,18 @@ export default function CvPage() {
         <p className="project-blurb-font mb-10 text-2xl leading-snug">
           {text.intro}
         </p>
-        <div className="max-w-sm">
-  <a
-    href={document.cv}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="block"
-  >
+        <div className="grid max-w-3xl grid-cols-1 gap-8 sm:grid-cols-2">
+            <div>
+         <a
+         href={document.cv}
+         target="_blank"
+         rel="noopener noreferrer"
+         className="block"
+        >
     <img
       src={document.thumbnail}
       alt={text.cvLabel}
-      className="h-auto w-full rounded-xl border-4 border-[var(--snug-blue)]"
+      className="aspect-[210/297] w-full rounded-xl border-4 border-[var(--snug-blue)] object-contain"
     />
   </a>
 
@@ -113,6 +144,118 @@ export default function CvPage() {
       {text.download}
     </a>
   </div>
+  </div>
+  <div>
+  <a
+    href={document.diptrans}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <img
+      src={document.diptransThumbnail}
+      alt={text.diptransLabel}
+      className="aspect-[210/297] w-full rounded-xl border-4 border-[var(--snug-blue)] object-contain"
+    />
+  </a>
+
+  <h2 className="display-font mt-5 text-2xl font-black">
+    {text.diptransLabel}
+  </h2>
+
+  <div className="body-font mt-2 flex gap-5 text-xl">
+    <a
+      href={document.diptrans}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline underline-offset-4"
+    >
+      {text.open}
+    </a>
+
+    <a
+      href={document.diptrans}
+      download
+      className="underline underline-offset-4"
+    >
+      {text.download}
+    </a>
+  </div>
+  </div>
+  <div>
+  <a
+    href={document.dsc}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <img
+      src={document.dscThumbnail}
+      alt={text.dscLabel}
+      className="aspect-[210/297] w-full rounded-xl border-4 border-[var(--snug-blue)] object-contain"
+    />
+  </a>
+
+  <h2 className="display-font mt-5 text-2xl font-black">
+    {text.dscLabel}
+  </h2>
+
+  <div className="body-font mt-2 flex gap-5 text-xl">
+    <a
+      href={document.dsc}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline underline-offset-4"
+    >
+      {text.open}
+    </a>
+
+    <a
+      href={document.dsc}
+      download
+      className="underline underline-offset-4"
+    >
+      {text.download}
+    </a>
+  </div>
+</div>
+    <div>
+  <a
+    href={document.lionbridge}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <img
+      src={document.lionbridgeThumbnail}
+      alt={text.lionbridgeLabel}
+      className="aspect-[210/297] w-full rounded-xl border-4 border-[var(--snug-blue)] object-contain"
+    />
+  </a>
+
+  <h2 className="display-font mt-5 text-2xl font-black">
+    {text.lionbridgeLabel}
+  </h2>
+
+  <div className="body-font mt-2 flex gap-5 text-xl">
+    <a
+      href={document.lionbridge}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline underline-offset-4"
+    >
+      {text.open}
+    </a>
+
+    <a
+      href={document.lionbridge}
+      download
+      className="underline underline-offset-4"
+    >
+      {text.download}
+    </a>
+  </div>
+</div>
 </div>
       </article>
     </main>

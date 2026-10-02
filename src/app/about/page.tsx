@@ -7,34 +7,33 @@ const copy = {
   en: {
     back: "← Back to homepage",
     title: "Who's Ben?",
+    photoCaption: "This is me.",
+    biography: "Rambling biography",
+    cv: "Classic CV",
     body: `Hi. I’m Ben. English and German have both been my native languages ever since I was able to speak, so I translate stuff for a living.
 Since you’re here, you probably like boardgames as much as I do. In fact,I like them so much, I’ve dedicated all of my business efforts to translating boardgames for the past couple of years. These days, it’s covering the bills. Well, almost.
-I used to do lots of other translation stuff, starting with working as an employed translator in a big company. That was 23 years ago. It was alright, at the time, but I moved on to being a freelancer seven years later, and that’s been my business model ever since. Most of what I translated was technical mumbojumbo for industrial clients. Boring, with a capital B.
-Boardgames are much better fun and I get to use language in a far friendlier way. 
+I used to do lots of other translation stuff, starting with working as an employed translator in a big company. That was twenty-three years ago. It was alright, at the time, but I moved on to being a freelancer seven years later, and that’s been my business model ever since. Most of what I translated was technical mumbojumbo for industrial clients. Boring, with a capital B.
+Boardgames are much better fun and I get to use language in a far more friendly way. 
 
-Perhaps you’re here because you want to get in touch. Go ahead, here’s my email:
-shipham.translator(at)online.ms
+That’s the tl;dr anyway. If you’re interested in more of my biography or just want to see a plain old CV and some references, there are some buttons over there on the right.
 
-If you have a boardgame project that would like to be translated or copy-edited, I’ll be delighted to discuss rates. I can do DTP/page layout work, too.
-
-Aynway, I’m glad you stopped by and had a look around. 
+Whatever brought you here, I’m glad you stopped by and had a look around. 
 May the cards come up in your favour and your dice treat you well!`,
   },
   de: {
     back: "← Zur Startseite",
     title: "Wer ist Ben?",
-    body: `Hi. Ich bin Ben. Deutsch und Englisch sind meine Muttersprachen, seit ich sprechen kann, deshalb verdiene ich mit Übersetzung meinen Lebensunterhalt.
+    photoCaption: "Das bin ich.",
+    biography: "Langatmige Lebenserzählung",
+    cv: "Klassischer Lebenslauf",
+    body: `Hi. Ich bin Ben. Deutsch und Englisch sind meine Muttersprachen, seit ich sprechen kann, deshalb verdiene ich mit Übersetzung meinen Lebensunterhalt. 
 Da du hier bist, findest du Brettspiele wahrscheinlich auch so toll wie ich. Ich finde sie tatsächlich so toll, dass ich mein gesamtes Arbeitsleben in den letzten Jahren darauf ausgerichtet habe, nur noch Brettspiele zu übersetzen. Mittlerweile kann ich davon leben. Naja, fast. 
-Früher habe ich alles Mögliche übersetzt, anfangs als angestellter Übersetzer in einer großen Firma. Das war vor 23 Jahren. das war ganz OK, damals, aber nach sieben Jahren habe ich mich selbständig gemacht. Und seitdem ist das mein Geschäftsmodell. Das meiste Zeug, das ich übersetzt habe, war Technikgedöns für Industriekunden. Laaangweilig, mit ganz vielen As.
-Brettspiele machen viel mehr Spaß und ich darf Sprache auch viel freundlicher einsetzen.
+Früher habe ich alles Mögliche übersetzt, anfangs als angestellter Übersetzer in einer großen Firma. Das war vor 23 Jahren. Das war ganz OK, damals, aber nach sieben Jahren habe ich mich selbständig gemacht. Und seitdem ist das mein Geschäftsmodell. Das meiste Zeug, das ich übersetzt habe, war Technikgedöns für Industriekunden. Laaangweilig, mit ganz vielen aaas. 
+Brettspiele machen viel mehr Spaß und ich darf Sprache auch viel freundlicher einsetzen. 
 
-Vielleicht bist du hier, weil du mich kontaktieren möchtest. Mach das gerne, hier ist meine E-mailadresse:
-shipham.translator(at)online.ms
+Soweit jedenfalls die Kurzfassung. Falls du etwas mehr über meinen Werdegang erfahren möchtest oder einfach nur einen ganz klassischen Lebenslauf mit Zeugnissen sehen willst, da drüben rechts sind ein paar Schaltflächen.
 
-Hast du vielleicht ein Brettspielprojekt, das übersetzt oder lektoriert werden möchte? Dann lass uns doch über Preise sprechen. Ich mache auch Layoutarbeit / DTP.
-
-Es hat mich jedenfalls gefreut, dass du vorbeigeschaut und dich hier umgesehen hast.
-Ich wünsche dir ein gutes Blatt und Würfel, die günstig fallen!`,
+Egal wie du hier gelandet bist, es freut mich, dass du vorbeigeschaut und dich hier umgesehen hast. Ich wünsche dir ein gutes Blatt und Würfel, die günstig fallen!`,
   },
 };
 
@@ -48,7 +47,8 @@ export default function AboutPage() {
         {text.back}
       </Link>
 
-      <article className="mt-10 max-w-3xl rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/75 p-8 shadow-[8px_8px_0_var(--snug-blue)]">
+      <div className="mt-10 flex flex-col items-start gap-10 lg:flex-row">
+      <article className="max-w-3xl rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/75 p-8 shadow-[8px_8px_0_var(--snug-blue)]">
         <div className="mb-8 flex gap-3 text-sm font-bold tracking-[0.2em]">
           <button
             onClick={() => setLanguage("en")}
@@ -83,6 +83,34 @@ export default function AboutPage() {
           {text.body}
         </p>
       </article>
-    </main>
+
+      <div className="w-full max-w-sm">
+         <img
+          src="/images/me-apr2026.webp"
+          alt="Ben Shipham"
+          className="h-auto w-full rounded-3xl"
+         />
+
+    <p className="body-font mt-2 text-center text-lg font-bold">
+    {text.photoCaption}
+    </p>
+    <div className="mt-6 flex flex-col gap-5">
+     <Link
+     href="/about/biography"
+     className="nav-button rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
+    >
+    {text.biography}
+     </Link>
+
+     <Link
+     href="/about/cv"
+     className="nav-button rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
+    >
+    {text.cv}
+     </Link>
+    </div>
+    </div>
+    </div>
+  </main>
   );
 }

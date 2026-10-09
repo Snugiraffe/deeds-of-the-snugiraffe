@@ -10,6 +10,7 @@ const copy = {
     photoCaption: "This is me.",
     biography: "Rambling biography",
     cv: "Classic CV",
+    worksample: "Work samples",
     body: `Hi. I’m Ben. English and German have both been my native languages ever since I was able to speak, so I translate stuff for a living.
 Since you’re here, you probably like boardgames as much as I do. In fact,I like them so much, I’ve dedicated all of my business efforts to translating boardgames for the past couple of years. These days, it’s covering the bills. Well, almost.
 I used to do lots of other translation stuff, starting with working as an employed translator in a big company. That was twenty-three years ago. It was alright, at the time, but I moved on to being a freelancer seven years later, and that’s been my business model ever since. Most of what I translated was technical mumbojumbo for industrial clients. Boring, with a capital B.
@@ -26,6 +27,7 @@ May the cards come up in your favour and your dice treat you well!`,
     photoCaption: "Das bin ich.",
     biography: "Langatmige Lebenserzählung",
     cv: "Klassischer Lebenslauf",
+    worksample: "Arbeitsproben",
     body: `Hi. Ich bin Ben. Deutsch und Englisch sind meine Muttersprachen, seit ich sprechen kann, deshalb verdiene ich mit Übersetzung meinen Lebensunterhalt. 
 Da du hier bist, findest du Brettspiele wahrscheinlich auch so toll wie ich. Ich finde sie tatsächlich so toll, dass ich mein gesamtes Arbeitsleben in den letzten Jahren darauf ausgerichtet habe, nur noch Brettspiele zu übersetzen. Mittlerweile kann ich davon leben. Naja, fast. 
 Früher habe ich alles Mögliche übersetzt, anfangs als angestellter Übersetzer in einer großen Firma. Das war vor 23 Jahren. Das war ganz OK, damals, aber nach sieben Jahren habe ich mich selbständig gemacht. Und seitdem ist das mein Geschäftsmodell. Das meiste Zeug, das ich übersetzt habe, war Technikgedöns für Industriekunden. Laaangweilig, mit ganz vielen aaas. 
@@ -107,6 +109,13 @@ export default function AboutPage() {
      className="nav-button rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
     >
     {text.cv}
+     </Link>
+
+     <Link
+     href="/about/worksample"
+     className="nav-button rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/70 px-8 py-3 text-2xl font-black shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
+    >
+    {text.worksample}
      </Link>
     </div>
     </div>

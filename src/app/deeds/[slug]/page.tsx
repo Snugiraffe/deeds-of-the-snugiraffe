@@ -87,6 +87,49 @@ export default function ProjectPage() {
     </div>
   
   )}
+  {project.downloads && (
+  <div className="mt-10 grid max-w-3xl grid-cols-1 gap-8 sm:grid-cols-2">
+    {project.downloads.map((item) => (
+      <div key={item.file}>
+        <a
+          href={item.file}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <img
+            src={item.thumbnail}
+            alt={item.title[language]}
+            className="block h-auto w-full rounded-xl border-4 border-[var(--snug-blue)]"
+          />
+        </a>
+
+        <h2 className="display-font mt-5 text-2xl font-black">
+          {item.title[language]}
+        </h2>
+
+        <div className="body-font mt-2 flex gap-5 text-xl">
+          <a
+            href={item.file}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4"
+          >
+            {language === "en" ? "Open PDF" : "PDF öffnen"}
+          </a>
+
+          <a
+            href={item.file}
+            download
+            className="underline underline-offset-4"
+          >
+            {language === "en" ? "Download" : "Herunterladen"}
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+  )}
 </div>
     </main>
   );

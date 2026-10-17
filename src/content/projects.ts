@@ -62,7 +62,7 @@ export const projects = [
     },
     publisher: "Capstone Games",
     year: "2023",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, English edition",
       de: "Lektorat englische Ausgabe",
@@ -90,7 +90,7 @@ export const projects = [
     },
     publisher: "Thames & Kosmos",
     year: "2023",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -118,7 +118,7 @@ export const projects = [
     },
     publisher: "Gigamic",
     year: "2023",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, French to English",
       de: "Übersetzung Französisch → Englisch",
@@ -146,7 +146,7 @@ export const projects = [
     },
     publisher: "Board Game Circus",
     year: "2023",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -174,7 +174,7 @@ export const projects = [
     },
     publisher: "HUCH!",
     year: "2023",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -256,7 +256,7 @@ export const projects = [
     },
     publisher: "Schmidt Spiele",
     year: "2024",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -284,7 +284,7 @@ export const projects = [
     },
     publisher: "Piatnik",
     year: "2024",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -312,7 +312,7 @@ export const projects = [
     },
     publisher: "TackTurn",
     year: "2024",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing German after translation French to English to German",
       de: "Redaktion, deutsch, nach Relaisübersetzung FR → EN → DE",
@@ -340,7 +340,7 @@ export const projects = [
     },
     publisher: "Pakusane",
     year: "2024",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing and playtesting, German edition",
       de: "Lektorat/Testspieler, deutsche Ausgabe",
@@ -395,7 +395,7 @@ export const projects = [
     },
     publisher: "IV Studio",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -423,7 +423,7 @@ export const projects = [
     },
     publisher: "Volcaban Studios",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -505,7 +505,7 @@ export const projects = [
     },
     publisher: "Matagot/Kolossal Games",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Retranslation base game + translation of expansion, English to German",
       de: "Neuübersetzung Grundspiel + Übersetzung Erweiterung Englisch → Deutsch",
@@ -560,7 +560,7 @@ export const projects = [
     },
     publisher: "IV Studio",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -615,7 +615,7 @@ export const projects = [
     },
     publisher: "IV Studio",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -643,7 +643,7 @@ export const projects = [
     },
     publisher: "Captain Games",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -671,7 +671,7 @@ export const projects = [
     },
     publisher: "Pandasaurus Games",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -699,7 +699,7 @@ export const projects = [
     },
     publisher: "Helvetiq",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -727,7 +727,7 @@ export const projects = [
     },
     publisher: "Greiferisto",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing German based on revised edition",
       de: "Anpassung deutsch aufgrund Überarbeitung",
@@ -755,7 +755,7 @@ export const projects = [
     },
     publisher: "Bombyx",
     year: "2025",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -810,7 +810,7 @@ export const projects = [
     },
     publisher: "Asmodee + Renegade Games Studios",
     year: "2026",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -892,7 +892,7 @@ export const projects = [
     },
     publisher: "Strohmann Games",
     year: "2026",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -920,7 +920,7 @@ export const projects = [
     },
     publisher: "Monolith Board Games",
     year: "2026",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat deutsche Ausgabe",
@@ -953,7 +953,7 @@ export const projects = [
       de: "Übersetzung Englisch → Deutsch",
     },
     description: {
-      en: "Andromeda’s Edge is a heavy strategy game about space exploration by rival extraterrestrial factions. The idea is that a long-lost but highly advanced earlier civilisation has left remnants in the local galactic sector that everyone now wants to exploit to support their own civilisation’s progress. It’s a game I’ve had my eye on ever since I saw it demo’d at SPIEL in 2024. What always kept me from pulling the trigger was that I’m pretty sure I’ll never get it to the table without travelling to see gaming folks who will be happy to take on its weight.\nSo, when I got wind of Frosted Games taking on the expansion, I hustled my contacts for the job. There’s no better excuse to get a big game title than to say I need it for professional reasons.\n\nThis project was for translation of the Genesis expansion, which adds three new factions, new sectors to explore and three new major mechanics (corrupted stars, shrines, and exotech). I like working for Frosted Games, because I appreciate the creative breathing space their approach to localisation affords. They’ll always do some rearranging here, add some of their own touches there, and generally make sure that any small flaws in the original design are smoothed out before publishing the German edition. \nAs always when working on an expansion for a game I’ve not been previously involved in, I needed to go through both the English and German base games with a fine-toothed comb to be able to match the style. This was also another set of files I translated directly in the native layout.",
+      en: "Andromeda’s Edge is a heavy strategy game about space exploration by rival extraterrestrial factions. The idea is that a long-lost but highly advanced earlier civilisation has left remnants in the local galactic sector that everyone now wants to exploit to support their own civilisation’s progress. It’s a game I’ve had my eye on ever since I saw it demo’d at SPIEL in 2024. What always kept me from pulling the trigger was that I’m pretty sure I’ll never get it to the table without travelling to see gaming folks who will be happy to take on its weight.\nSo, when I got wind of Frosted Games taking on the expansion, I hustled my contacts for the job. There’s no better excuse to get a big game title than to say I need it for professional reasons.\n\nThis project was Translation of the Genesis expansion, which adds three new factions, new sectors to explore and three new major mechanics (corrupted stars, shrines, and exotech). I like working for Frosted Games, because I appreciate the creative breathing space their approach to localisation affords. They’ll always do some rearranging here, add some of their own touches there, and generally make sure that any small flaws in the original design are smoothed out before publishing the German edition. \nAs always when working on an expansion for a game I’ve not been previously involved in, I needed to go through both the English and German base games with a fine-toothed comb to be able to match the style. This was also another set of files I translated directly in the native layout.",
       de: "Andromeda’s Edge ist ein Expertenspiel aus der Strategiesparte. Thematisch geht es um die Erkundung neuer Sektoren im Weltraum, wobei man jeweils in die Rolle einer außerirdischen Spezies schlüpft. In den bisher unerforschten Sektoren warten die Überreste einer längst vergangenen, aber hochentwickelten Zivilisation, und so wird aus entspannter Erkundung ein Wettrennen darum, seine Spezies zur galaktischen Vorherrschaft zu führen. Das Spiel reizt mich, seit ich 2024 einer Vorstellung auf der SPIEL beiwohnen durfte. Ich hatte mir die Anschaffung immer wieder verkniffen, weil es nur Menschen mit mir spielen werden, deren Wohnorte in mehrstündiger Entfernung liegen.\nSobald ich aber Wind davon bekam, dass Frosted Games sich auch der Erweiterung annehmen würden, bekniete ich meine Kontakte, mir den Zuschlag zur Übersetzung zu erteilen. Dass ich ein Spiel aus beruflichen Gründen brauche, ist die Ausrede schlechthin, es mir anzuschaffen.\n\nZur Übersetzung stand hier die Erweiterung aus, die dem Spiel drei neue Fraktionen, neue erkundbare Sektoren und drei neue Spielmechaniken hinzufügt (verdunkelte Sterne, Schreine und Exotech). Ich arbeite gerne für Frosted Games, da deren Ansatz bei Lokalisierungen immer einen gewissen kreativen Freiraum mit sich bringt. Frosted wird immer hier ein wenig schleifen, da ein wenig umstrukturieren und allgemein ein Auge darauf haben, alle Unstimmigkeiten im ursprünglichen Entwurf vor der Veröffentlichung der deutschen Ausgabe auszumerzen.\nWie immer wenn ich an einer Erweiterung zu einem Spiel arbeite, bei dem ich vorher nicht an Bord war, musste ich auch hier die englische und deutsche Ausgabe des Grundspiels minutiös durchgehen, um beim Übersetzen den Stil richtig zu treffen. Genesis habe ich auch direkt in den offenen Daten übersetzt."
     },
     cover: {
@@ -1021,7 +1021,7 @@ export const projects = [
     },
     publisher: "Helvetiq",
     year: "2026",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -1050,7 +1050,7 @@ export const projects = [
     },
     publisher: "Ctrl Publish",
     year: "2026",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -1079,7 +1079,7 @@ export const projects = [
     },
     publisher: "Samhain Verlag",
     year: "2026",
-    client: "for Translation Circus",
+    client: "Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",

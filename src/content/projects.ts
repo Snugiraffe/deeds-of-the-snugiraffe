@@ -62,6 +62,7 @@ export const projects = [
     },
     publisher: "Capstone Games",
     year: "2023",
+    client: "for Translation Circus",
     role: {
       en: "Editing, English edition",
       de: "Lektorat englische Ausgabe",
@@ -89,6 +90,7 @@ export const projects = [
     },
     publisher: "Thames & Kosmos",
     year: "2023",
+    client: "for Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -116,6 +118,7 @@ export const projects = [
     },
     publisher: "Gigamic",
     year: "2023",
+    client: "for Translation Circus",
     role: {
       en: "Translation, French to English",
       de: "Übersetzung Französisch → Englisch",
@@ -143,6 +146,7 @@ export const projects = [
     },
     publisher: "Board Game Circus",
     year: "2023",
+    client: "for Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -170,6 +174,7 @@ export const projects = [
     },
     publisher: "HUCH!",
     year: "2023",
+    client: "for Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -251,6 +256,7 @@ export const projects = [
     },
     publisher: "Schmidt Spiele",
     year: "2024",
+    client: "for Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -278,6 +284,7 @@ export const projects = [
     },
     publisher: "Piatnik",
     year: "2024",
+    client: "for Translation Circus",
     role: {
       en: "Translation, German to English",
       de: "Übersetzung Deutsch → Englisch",
@@ -305,6 +312,7 @@ export const projects = [
     },
     publisher: "TackTurn",
     year: "2024",
+    client: "for Translation Circus",
     role: {
       en: "Editing German after translation French to English to German",
       de: "Redaktion, deutsch, nach Relaisübersetzung FR → EN → DE",
@@ -332,6 +340,7 @@ export const projects = [
     },
     publisher: "Pakusane",
     year: "2024",
+    client: "for Translation Circus",
     role: {
       en: "Editing and playtesting, German edition",
       de: "Lektorat/Testspieler, deutsche Ausgabe",
@@ -386,6 +395,7 @@ export const projects = [
     },
     publisher: "IV Studio",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -413,6 +423,7 @@ export const projects = [
     },
     publisher: "Volcaban Studios",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -494,6 +505,7 @@ export const projects = [
     },
     publisher: "Matagot/Kolossal Games",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Retranslation base game + translation of expansion, English to German",
       de: "Neuübersetzung Grundspiel + Übersetzung Erweiterung Englisch → Deutsch",
@@ -548,6 +560,7 @@ export const projects = [
     },
     publisher: "IV Studio",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -602,6 +615,7 @@ export const projects = [
     },
     publisher: "IV Studio",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -629,6 +643,7 @@ export const projects = [
     },
     publisher: "Captain Games",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -656,6 +671,7 @@ export const projects = [
     },
     publisher: "Pandasaurus Games",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -683,6 +699,7 @@ export const projects = [
     },
     publisher: "Helvetiq",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat, deutsche Ausgabe",
@@ -710,6 +727,7 @@ export const projects = [
     },
     publisher: "Greiferisto",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Editing German based on revised edition",
       de: "Anpassung deutsch aufgrund Überarbeitung",
@@ -737,6 +755,7 @@ export const projects = [
     },
     publisher: "Bombyx",
     year: "2025",
+    client: "for Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -789,8 +808,9 @@ export const projects = [
       en: "Lords of Waterdeep",
       de: "Lords of Waterdeep",
     },
-    publisher: "Renegade Games Studios",
+    publisher: "Asmodee + Renegade Games Studios",
     year: "2026",
+    client: "for Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -872,6 +892,7 @@ export const projects = [
     },
     publisher: "Strohmann Games",
     year: "2026",
+    client: "for Translation Circus",
     role: {
       en: "Translation, English to German",
       de: "Übersetzung Englisch → Deutsch",
@@ -899,6 +920,7 @@ export const projects = [
     },
     publisher: "Monolith Board Games",
     year: "2026",
+    client: "for Translation Circus",
     role: {
       en: "Editing, German edition",
       de: "Lektorat deutsche Ausgabe",
@@ -988,7 +1010,123 @@ export const projects = [
     file: "/documents/SkyEmpire_rulebook_de_v7.pdf",
     thumbnail: "/images/documents/sky-empire-cover-thumb-de.webp",
     },
-],
-  },
+     ],
+    },
     
+    {
+    slug: "fugu",
+    title: {
+      en: "FUGU",
+      de: "FUGU",
+    },
+    publisher: "Helvetiq",
+    year: "2026",
+    client: "for Translation Circus",
+    role: {
+      en: "Editing, German edition",
+      de: "Lektorat, deutsche Ausgabe",
+    },
+    description: {
+      en: "Fugu is a light-weight fish-themed set colletion game. Players draw cards from a shared pool (whoops, pun!) and use them to replace cards in their personal row of face-down cards. Once there, the face-up cards constrain where further cards can be placed. Players can decide to pass for the round if they’re happy with their row. Once everyone has passed, rows are scored based on how the different types of aquatic creature ended up being grouped. \n\nHelvetiq are a Swiss publisher with a portfolio of lighter games like this one, usually with fairly short or at least condensed rules. Think a double-sided A5 leaflet. The game components are usually language-agnostic and they publish their games in multiple languages all in one go. Based as they are in Switzerland, their team already speaks a range of European languages and so jobs for this publisher mostly involve copy editing rather than proofreading translations. I pride myself on being pretty good at streamlining explanations and putting things into the order players will intuitively apply when actually playing the game. Interestingly, the shorter or more condensed rules are, the higher the proportion of opportunities for this kind of rewrite seems to be, and this one was no exception.",
+      de: "Fugu ist ein unkompliziertes Spiel rund um das Zusammenstellen einer harmonischen Zusammensetzung von Meeresbewohnern. Beim Spiel werden Karten aus einer gemeinsamen Auslage gewählt, mit denen man verdeckte Karten in der persönlichen Kartenreihe austauscht. Die neu hinzugekommen Karten bleiebn offen in der Reihe und schränken die Optionen für das Platzieren weiterer Karten ein. Wer mit seiner Reihe zufrieden ist, passt, und wenn alle gepasst haben, wird gewertet. Dabei kommt es darauf an, wie die verschiedenen Meeresbewohner gruppiert sind.\n\nHelvetiq sind ein schweizer Spieleverlag, der hauptsächlich einfachere Spiele wie dieses herausbringt. Dabei sind die Spielmaterialien selbst meist sprachneutral und die Anleitungen kurz gehalten, oft etwa ein doppelseitiges A5-Blatt. Ein Spiel kommt dann jeweils gleich in mehreren Sprachen auf den Markt. Als Schweizer sprechen die Mitarbeiter bei Helvetiq bereits eine Reihe europäischer Sprachen, weswegen Aufträge für diesen Kunden eher Copy-Edits als Übersetzungslektorate sind. Ich bin ziemlich gut darin, Erklärungen auf das Wesentliche einzukochen und Reihenfolgen so umzustellen, dass sie zu den Gedankengängen und tatsächlichen Handlungsfolgen während eines Spiels passen. Interessanterweise gibt es oft proportional umso mehr Gelegenheiten für solche Umstellungen, je kürzer oder kompakter eine Anleitung ist. So war es auch in diesem Fall."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/fugu.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/466239/fugu",
+      },
+      de: {
+       image: "/images/covers/fugu-en-de.webp",
+       bggUrl: "https://helvetiq.com/de/fugu-std",
+      },
+    },
+  },
+
+  {
+    slug: "knuffelbuffel",
+    title: {
+      en: "Knuffel Buffel",
+      de: "Knuffel Büffel",
+    },
+    publisher: "Ctrl Publish",
+    year: "2026",
+    client: "for Translation Circus",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "A kids’ game about putting tufts of fur back on cows who have lost them.\n\nThis was a tiny project, but I’m including it here because the editor and me had a surprising amount of back-and-forth regarding the wording and from then on to long chats about our kids. The game proved to be a great example of how important it is to never forget how to see the world through the eyes of children and of how a game can bring people together, sometimes even if those people never actually play it!",
+      de: "Ein Spiel für Kinder, bei dem man Kühen hilft, ihre verlorenen Fellbüschel wiederzufinden.\n\nDas hier war ein winziger Auftrag. Ich führe ihn hier aber trotzdem auf, weil die Lektorin und ich überraschend viel über unsere Wortwahl hin- und hergrübelten und von dort aus dann viel und lange über unsere jeweiligen Kinder sprachen. Das machte dieses Spiel zu einem sehr schönen Beispiel dafür, wie wichtig eine kindliche Perspektive auf die Welt ist und auch dafür, wie ein Spiel Menschen zusammenbringen kann – selbst wenn sie das Spiel gar nicht spielen!"
+    },
+    cover: {
+      en: {
+       image: "/images/covers/knuffel-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/454766/knuffel-buffel",
+      },
+      de: {
+       image: "/images/covers/knuffel-de.webp",
+       bggUrl: "https://koenterra.nl/main-page/current/knuffel-buffel/",
+      },
+    },
+  },
+
+    {
+    slug: "zombie-paella",
+    title: {
+      en: "The Zombie Paella",
+      de: "Zombie Paella",
+    },
+    publisher: "Samhain Verlag",
+    year: "2026",
+    client: "for Translation Circus",
+    role: {
+      en: "Editing, German edition",
+      de: "Lektorat, deutsche Ausgabe",
+    },
+    description: {
+      en: "This card game brings an eclectic mix of zombie imagery, humour, and Valencian culture to the table. Apparently, zombies from Valencia don’t eat brains, they eat paella. Yeah, that was news to me, too. So, the aim is to collect five special ingredient cards for the paella you will be serving at the Las Fallas festival. There’s chicken, rabbit, but also slimy snails and stinking sandals, to name just a few. Collecting them is both made possible and severely hampered by the game’s mechanics, which provide a variety of means for you and everyone else to steal cards played to a player’s face-up set in their playing area.\n\nMany of the cards include some short flavour text, sometimes with a tidbit of info relating to local customs or folk tales from Valencia. Other cards attempt tongue-in-cheek references or slightly risqué innuendo. The German publisher wasn’t too keen on anything that might be construed as too adult and at the same time, a lot of the cultural references were so superficial that only someone with deeper connections to Valencia would ever get them. Marry that to the fact that the game was written in English by a Spaniard and translated to German by an Austrian and it’s hardly surprising that there’s a sort of linguistically undead flavour. ",
+      de: "Bei diesem Kartenspiel kommt eine ungeöhnliche Mischung aus Zombiebildern, Humor und valenzianischer Kultur auf den Tisch. Anscheinend fressen Zombies aud Valencia keine Gehirne, sondern Paella. Mir was das neu, aber ich bin ja auch nicht von dort. Ziel des spiels ist es also, fünf Zutatenkarten für die Paella zu sammeln, die zum Las Fallas Fest serviert werden soll. Zutaten sind zum Beispiel Hühnchen oder Hase, aber auch schleimige Schnecken und stinkende Sandalen. Diese zusammenzusammeln wird im Spiel ermöglicht und auch massiv erschwwert, indem die Spielregeln mannigfaltige Möglichkeiten bieten, die offen gespielten Karten der anderen aus ihren Auslagen zu stehlen.\n\nAuf vielen der Karten findet sich ein kurzer Stimmungstext, der manchmal aus einem Häppchen Hintergrundinfo zu Gebräuchen oder Volksmärchen aus Valencia besteht. Auf anderen Karten versucht der Text ulkige Anspielungen or leicht anzügliche Andeutungen. Dem deutschen Herausgeber war es wichtig, jeden Hauch sexueller Zweideutigkeit auszuschließen, gleichzeitig sind viele der Verweise auf kulturelle Aspekte so oberflächlich, dass sie nur diejenigen richtig verstehen werden, Valencia sehr gut kennen. Fügen wir da noch hinzu, dass das Spiel von einem Spanier auf Englisch verfasst und von einem Österreicher ins Deutsche übertragen wurde, dann erübrigt sich jedwedes Staunen über den eventuell untoten linguistisch Beigeschmack."
+    },
+    cover: {
+      en: {
+       image: "/images/covers/zombie-paella-en.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/424247/the-zombie-paella",
+      },
+      de: {
+       image: "/images/covers/zombie-paella-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/820146/german-edition",
+      },
+    },
+  },
+
+    {
+    slug: "boktor",
+    title: {
+      en: "Boktor",
+      de: "Boktor",
+    },
+    publisher: "Fox Troll Games",
+    year: "2026",
+    role: {
+      en: "Translation, English to German",
+      de: "Übersetzung Englisch → Deutsch",
+    },
+    description: {
+      en: "“For the German translation, we partnered with Ben, a professional German translator. We want to thank him warmly for his attention to detail, not only on the German version, but also for helping us improve the English files along the way.”\n\nThis one’s a dungeon crawler. It uses all the classic elements, like terrain tiles for random and modular board layout, a different character with particular skill set for every player, and a levelling mechanic based on – what else? – slaying monsters. Thematically, the game world borrows heavily, but freely, from Greek mythology. Players take on the role of chosen heroes facing off against an otherworldly tyrant monster and its hordes of minions in order to seal a portal and, yes, save the world of Boktor! The game is fully cooperative and the way it organises a game round is where it really stands apart from its many competitors out there: There are heaps of opportunities for everyone to stay involved, regardless of who’s currently taking their active turn. Gameplay itself is really snappy, with next to no bookkeeping required thanks to the clever component designs (there are even little wooden swords you can stick into the monster meeples to show their current health level, which is delightful). Random activation of enemy pieces reduces analysis paralysis to an absolute minimum, but monster pile-up and the increasing range of possible player-power combos make the game surprisingly crunchy.\nThe components are really nice, too, with solid wooden pieces in the regular edition and acrylic standees for the heroes and tyrants in the deluxe box.\nA first expansion was also already part of the job, which adds fresh takes on all playable characters, changes the tyrants’ behaviour, and has a whole set of new and different monsters. Oh, and huge trees.\n\nI came across this project while it was crowdfunding. The designers (who are also the publishers) posted a work-in-progress rulebook and I gave them a proof-read document back. I was pretty much hooked by the campaign presentation already, as well as the overwhelming positive buzz among the campaign followers. Once crowdfunding was over and the publishers had solid numbers gauging the interest in localised versions, they reached out to me for a quote and I started translation work soon after. One primary design focus was to keep the game accessible, so the rules needed to be presented concisely in a fairly short rulebook. Working in the native layout was a blessing here in terms of making texts fit properly. There were about 150 cards, too, where a thematic name was just as important as describing card effects comprehensibly without getting too wordy.\n\nThere’s been a hugely positive response to the game so far, and I’m really happy that I got to work on it. Say it with me: FOR BOKTOR!!",
+      de: "„Für die deutsche Übersetzung haben wir Ben beauftragt, einen Profi-Übersetzer für Deutsch. Wir bedanken uns ganz herzlich bei ihm für seine Liebe zum Detail, nicht nur bei der deutschen Ausgabe, sondern auch dafür, dass er gleichzeitig zur Verbesserung der englischen Dateien beigetragen hat.“\n\nBoktor ist ein Dungeoncrawler. Das Spiel verwendet alle genretypischen Elemente, wie Gebietsplättchen für zufälligen und modularen Spielplanaufbau, unterschiedliche Spielercharaktere mit jeweils eigenen Fähigkeiten und dem Aufsteigen und Verbessern durch – was sonst – Besiegen von Monstern. Thematisch bedient sich das Spiel stark, aber auch recht frei, aus den griechischen Sagen. Die Spieler schlüpfen in die Rollen auserkorener Helden, die sich einem finsteren Tyrannen von jenseits dieser Welt und seiner Schar an Scheusalen stellen, um ein Portal zu schließen und, jawohl, die Welt von Boktor zu retten! Das Spiel ist kooperativ und in der Art, wie der Spielfluss aufgebaut ist, liegt das Alleinstellungsmerkmal, durch welches sich Boktor von seiner Vielzahl an Artgenossen abhebt: Jede Runde bietet eine ganze Fülle an Gelegenheiten für alle Beteiligten, sich einzubringen, egal wer gerade aktiv einen Spielzug ausführt. Der Spielablauf selbst ist rasant und dank der durchdachten Gestaltung des Spielmaterials gibt es kaum Dinge, die nachgehalten werden müssten (es gibt sogar kleine Holzschwerter, die in die Monsterfiguren gesteckt werden, um Verwundungen anzuzeigen, einfach genial). Die zufällig gesteuerte Aktivierung der Feindfiguren reduziert Abwägzeiten bei Spielentscheidungen auf ein Mindestmaß, wobei anschwellende Monsterhorden und die stetig zunehmende Anzahl an möglichen Fähigkeitskombinationen dem Spiel eine unerwartete taktische Tiefe verleihen.\nDas Spiel ist außerdem sehr schön verarbeitet, mit schicken Holzelementen in der Standardbox und Acrylaufstellern für Helden und Tyrannen in der Deluxe-Ausgabe.\nEine erste Erweiterung war auch gleich mit im Auftrag inbegriffen, mit alternativen Fähigkeiten für die Spielercharaktere, abgewandelten Verhaltensmustern für die Tyrannen und einer komplett neuen Riege an Monstern. Ach ja, und mit Riesenbäumen.\n\nIch bin während der Crowdfunding-Kampagne auf dieses Spiel aufmerksam geworden. Die Autoren (gleichzeitig auch die Herausgeber) stellten ein Vorabexemplar der Spielanleitung ins Netz und ich schickte ihnen eine lektorierte Fassung zurück. Mich hatte die Kampagne zu diesem Zeitpunkt bereits überzeugt, dank der allgemeinen Präsentation und der überwältigend positiven Energie, die die Unterstützer mitriss. Nach Abschluss der Kampagne hatten die Herausgeber verlässliche Zahlen in Bezug auf die Nachfrage nach lokalisierten Ausgaben und baten mich um ein Angebot. Kurz darauf durfte ich loslegen. Ein wesentlicher Fokus des Spieldesigns war Zugänglichkeit, die Anleitungstexte mussten also im recht kurzen Anleitungsheft kompakt, aber schlüssig präsentiert werden. Hier hat mir das Arbeiten in den offenen Daten das Einbetten der Texte in den verfügbaren Platz erheblich erleichtert. Dazu kamen dann noch etwa 150 Karten, bei denen nicht nur ein atmosphärischer Name wichtig war, sondern auch die verständliche Beschreibung der Effekte in möglichst wenigen Worten.\n\nDem Spiel wird bisher äußerst positiv begegnet und ich freue mich sehr, dass ich mit an Bord sein durfte. Sprich mir nach: FÜR BOKTOR!!"
+    },
+    cover: {
+      en: {
+       image: "/images/covers/boktor-en-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgame/443294/boktor",
+      },
+      de: {
+       image: "/images/covers/boktor-en-de.webp",
+       bggUrl: "https://boardgamegeek.com/boardgameversion/814655/german-edition",
+      },
+    },
+  },
+
+
 ];

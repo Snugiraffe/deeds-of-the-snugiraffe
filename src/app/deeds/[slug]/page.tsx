@@ -58,6 +58,12 @@ export default function ProjectPage() {
       {project.publisher} · {project.year}
     </p>
 
+    {"client" in project && typeof project.client === "string" && (
+    <p className="body-font mb-2 text-xl">
+     {project.client}
+     </p>
+    )}
+
     <p className="body-font mb-8 text-xl font-bold">
       {project.role[language]}
     </p>

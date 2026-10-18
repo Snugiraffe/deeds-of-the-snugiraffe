@@ -11,7 +11,7 @@ const copy = {
 Translation Circus is a subdivision of the German boardgame publishing house Board Game Circus. Unlike a full-blown publisher, Translation Circus acts as a localisation agency. They take on translation, page layout, and copy-editing jobs, which they then complete by outsourcing the various parts of a given job to freelancers like myself. You can see from my website that I do a fair bit of work for them. 
 Translation Circus itself is a fairly small team of absolutely the loveliest people I’ve ever worked with. They’re wonderfully competent and comfortingly laid-back all at once and have brought me together with many other lovely, competent, and laid-back people, for which I’m very grateful!
 
-If you’re a game designer or publisher with localisation needs, I’d naturally be delighted to work you directly. But if you’re looking for languages beyond English and German, or if I’m not quite what you’re looking for, reach out to them. Go on, you know you want to:`,
+If you’re a game designer or publisher with localisation needs, I’d naturally be delighted to work with you directly. But if you’re looking for languages beyond English and German, or if I’m not quite what you’re looking for, reach out to them. Go on, you know you want to:`,
   },
   de: {
     back: "← Zurück zu Wer ist Ben?",

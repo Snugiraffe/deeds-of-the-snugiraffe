@@ -28,7 +28,7 @@ export default function ProjectPage() {
 
   return (
     <main className="min-h-screen px-8 py-10 text-[var(--snug-blue)] md:px-16">
-      <Link href="/deeds" className="body-font text-xl underline">
+      <Link href={`/deeds#${project.slug}`} className="body-font text-xl underline">
        {ui[language].back}
       </Link>
 

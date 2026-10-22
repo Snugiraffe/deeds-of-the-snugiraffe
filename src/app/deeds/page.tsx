@@ -72,8 +72,9 @@ export default function DeedsPage() {
         {yearProjects.map((project) => (
         <Link
           key={project.slug}
+          id={project.slug}
           href={`/deeds/${project.slug}`}
-          className="body-font mb-5 block rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/75 p-4 text-2xl shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
+          className="body-font scroll-mt-24 mb-5 block rounded-3xl border-4 border-[var(--snug-blue)] bg-[#FFDF9D]/75 p-4 text-2xl shadow-[8px_8px_0_var(--snug-blue)] transition hover:-translate-y-1 hover:shadow-[11px_11px_0_var(--snug-blue)]"
         >
           {project.title[language]}
         </Link>

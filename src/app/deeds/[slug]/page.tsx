@@ -69,7 +69,21 @@ export default function ProjectPage() {
     </p>
 
     <p className="project-blurb-font whitespace-pre-line text-2xl font-bold leading-snug">
-      {project.description[language]}
+     {project.description[language].split(/(https?:\/\/[^\s]+)/g).map((part, i) =>
+        part.startsWith("http") ? (
+      <a
+      key={i}
+      href={part}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline underline-offset-4"
+      >
+      {part}
+      </a>
+      ) : (
+      part
+      )
+    )}
     </p>
   </article>
 
